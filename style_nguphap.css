@@ -1,0 +1,140 @@
+.text {
+    position: relative;
+    width: 100%;
+}
+.text > h3 {
+    color: greenyellow;
+}
+
+.text-active {
+    position: absolute;
+    display: none;
+    width: 100%;
+    top: 100%;
+    list-style: none;
+    background: rgba(0,0,0,0.5);
+    z-index: 10;
+}
+.text-active-content {
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 800;
+    color: greenyellow;
+}
+.text-active-content > .lix1 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.text-active-content > .lix1:hover {
+    background: aqua;
+    color: red;
+}
+.text:hover .text-active{
+    display: flex;
+}
+
+/*--------------------------------------------Tính từ --------------------------*/
+
+.tinhtu-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+    width: 100%;
+    height: 100%;
+    background: white;
+    z-index: 100;
+}
+.tinhtu-xdong{
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    width: 100px;
+    height: 50px;
+    background: red;
+    font-size: 20px;
+    font-weight: 800;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.5;
+    user-select: none;
+}
+.tinhtu-xdong:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+.tinhtu-content {
+    width: 100%;
+    height: 100%;
+}
+.title-tinhtu {
+    margin-top: none;
+    width: 100%;
+    height: 5%;
+    /* background: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.title-tinhtu > h1 {
+    color: black;
+    font-size: 30px;
+}
+.body-tinhtu {
+    margin-left: 5%;
+    width: 90%;
+    height: 70%;
+    border: 3px solid #ddd;
+    display: flex;
+}
+.congthuc-tinhtu {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    border-right: 1.5px solid #ddd;
+}
+.vandung-tinhtu{
+    width: 50%;
+    height: 100%;
+    border-left: 2px solid #ddd;
+}
+.title-congthuc-tinhtu {
+    width: 100%;
+    height: 8%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.title-congthuc-tinhtu > h3 {
+    font-size: 20px;
+}
+.congthuc-tinhtu-item {
+    width: 100%;
+    height: 95%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

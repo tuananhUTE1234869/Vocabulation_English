@@ -1,0 +1,2293 @@
+.case5{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+    background: #081b29;
+    z-index: 15;
+}
+
+.case5-title{
+    position: absolute;
+    width: 100%;
+    height: 10%;
+    /* background: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+}
+.case5-title-text{
+    width: 27%;
+    height: 100%;
+    /* background: green; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.case5-title-text > h3 {
+    color: white;
+    font-weight: 800;
+    font-size: 40px;
+
+}
+
+.case5 .case5-container{
+    position: relative;
+    margin-top: 130px;
+    margin-left: 300px;
+    width: 937px;
+    height: 700px;
+    background: linear-gradient(#081b29, #0ef, #081b29, #0ef);
+    box-shadow: 0 0 100px #0ef;
+}
+.case5 .case5-container .xdong5{
+    position: absolute;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    width: 60px;
+    height: 30px;
+    background: rgba(255,0,0,0.5);
+    cursor: pointer;
+    user-select: none;
+    color: white;
+}
+.case5 .case5-container .xdong5:hover {
+    background: rgb(255,0,0);
+}
+.reset5 {
+    position: absolute;
+    display: flex;
+    margin-left: 45%;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: 800;
+    width: 100px;
+    height: 30px;
+    user-select: none;
+    background:rgba(255,0,0,0.5);
+}
+.reset5:hover {
+    background: red;
+    cursor: pointer;
+}
+
+/* all element in case5 */
+.case5-row{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    height: 90%;
+    gap: 50px;
+} 
+
+.row {
+    width: 100%;
+    height: 28%;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.item {
+    background: black;
+    width: 20%;
+    height: 100%;
+    overflow: hidden;
+}
+.font {
+    position: absolute;
+    font-size: 40px;
+    font-weight: 800;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+/*-----------------------------------------------------row1----------------------------------------*/
+/*---------------------------------------------case5-row1-item1-rwamdom1----------------------------*/
+.case5-row1-item1-random2{
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    transition: 0.5s ease all;
+    
+}
+
+
+
+/*.case5-row1-item1-random2-1*/
+.case5-row1-item1-random2-1 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #ddd;    
+}
+.case5-row1-item1-random2-1::after{
+    /* content: "Man"; */
+    font-size: 25px;
+    font-weight: 800;
+    position: absolute;
+    top: 50px;
+    left: 10px;
+}
+.case5-row1-item1-random2-acc1::after{
+    position: absolute;
+    font-size: 20px;
+    top: 60px;
+    /* left: 15px; */
+    /* content: "Đàn Ông"; */
+    color: red;
+    text-align: center;
+  }
+
+  /*.case5-row1-item1-random2-2*/
+.case5-row1-item1-random2-2 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #ddd;
+    transform: translateX(100%);
+}
+.case5-row1-item1-random2-2::after{
+    /* content: "Woman"; */
+    font-size: 25px;
+    font-weight: 800;
+    position: absolute;
+    top: 50px;
+    left: 15px;
+}
+.case5-row1-item1-random2-acc2::after{
+    position: absolute;
+    font-size: 20px;
+    /* content: "Người Phụ Nữ"; */
+    color: red;
+  }
+/*.case5-row1-item1-random2-3*/
+.case5-row1-item1-random2-3 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #ddd;
+    transform: translateX(200%);
+}
+.case5-row1-item1-random2-3::after{
+    /* content: "Men"; */
+    font-size: 25px;
+    font-weight: 800;
+    position: absolute;
+    top: 50px;
+    left: 15px;
+}
+.case5-row1-item1-random2-acc3::after{
+    position: absolute;
+    font-size: 20px;
+    /* content: "Những người đàn ông"; */
+    color: red;
+  }
+
+
+  /*.case5-row1-item1-random2-3*/
+.case5-row1-item1-random2-4 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #ddd;
+    transform: translateX(300%);
+}
+.case5-row1-item1-random2-4::after{
+    /* content: "His"; */
+    font-size: 25px;
+    font-weight: 800;
+    position: absolute;
+    top: 50px;
+    left: 15px;
+}
+.case5-row1-item1-random2-acc4::after{
+    position: absolute;
+    font-size: 20px;
+    /* content: "Anh ấy"; */
+    color: red;
+  }
+
+  /*.case5-row1-item1-random2-5*/
+.case5-row1-item1-random2-5 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #ddd;
+    transform: translateX(400%);
+}
+.case5-row1-item1-random2-5::after{
+    /* content: "Her"; */
+    font-size: 25px;
+    font-weight: 800;
+    position: absolute;
+    top: 50px;
+    left: 15px;
+}
+.case5-row1-item1-random2-acc5::after{
+    position: absolute;
+    font-size: 20px;
+    /* content: "Cô ấy"; */
+    color: red;
+  }
+
+
+
+
+
+
+
+
+
+/*--------------------------------case5-row1-item2-ramdom2-------------*/
+.case5-row1-item2-random2{
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    transition: 0.5s ease all;
+}
+/*.case5-row1-item2-random2-1*/
+.case5-row1-item2-random2-1 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #ddd;
+    z-index: 10;
+    
+}
+.case5-row1-item2-random2-1::after{
+    /* content: "Man"; */
+    font-size: 25px;
+    font-weight: 800;
+    position: absolute;
+    top: 50px;
+    left: 15px;
+}
+.case5-row1-item2-random2-acc1::after{
+    position: absolute;
+    font-size: 20px;
+    /* content: "Đàn Ông"; */
+    color: red;
+    text-align: center;
+    z-index: 10;
+  }
+
+
+
+/*.case5-row1-item2-random2-2*/
+.case5-row1-item2-random2-2 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #ddd;
+    transform: translateX(100%);
+    z-index: 10;
+}
+.case5-row1-item2-random2-2::after{
+    /* content: "Woman"; */
+    font-size: 25px;
+    font-weight: 800;
+    position: absolute;
+    top: 50px;
+    left: 15px;
+}
+.case5-row1-item2-random2-acc2::after{
+    position: absolute;
+    font-size: 20px;
+    /* content: "Người Phụ Nữ"; */
+    color: red;
+    z-index: 10;
+  }
+/*.case5-row1-item1-random2-3*/
+.case5-row1-item2-random2-3 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #ddd;
+    transform: translateX(200%);
+    z-index: 10;
+}
+.case5-row1-item2-random2-3::after{
+    /* content: "Men"; */
+    font-size: 25px;
+    font-weight: 800;
+    position: absolute;
+    top: 50px;
+    left: 15px;
+}
+.case5-row1-item2-random2-acc3::after{
+    position: absolute;
+    font-size: 20px;
+    /* content: "Những người đàn ông"; */
+    color: red;
+    z-index: 10;
+  }
+
+
+  /*.case5-row1-item2-random2-4*/
+.case5-row1-item2-random2-4 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #ddd;
+    transform: translateX(300%);
+    z-index: 10;
+}
+.case5-row1-item2-random2-4::after{
+    /* content: "His"; */
+    font-size: 25px;
+    font-weight: 800;
+    position: absolute;
+    top: 50px;
+    left: 15px;
+    
+}
+.case5-row1-item2-random2-acc4::after{
+    position: absolute;
+    font-size: 20px;
+    /* content: "Anh ấy"; */
+    color: red;
+    z-index: 10;
+  }
+
+
+
+  /*.case5-row1-item2-random2-5*/
+.case5-row1-item2-random2-5 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #ddd;
+    transform: translateX(400%);
+    z-index: 10;
+}
+.case5-row1-item2-random2-5::after{
+    /* content: "Her"; */
+    font-size: 25px;
+    font-weight: 800;
+    position: absolute;
+    top: 50px;
+    left: 15px;
+}
+.case5-row1-item2-random2-acc5::after{
+    position: absolute;
+    font-size: 20px;
+    /* content: "Cô ấy"; */
+    color: red;
+    z-index: 10;
+  }
+
+
+
+
+
+
+
+/*--------------------------------case5-row1-item3-ramdom2-------------*/
+.case5-row1-item3-random2{
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    transition: 0.5s ease all;
+}
+/*.case5-row1-item3-random2-1*/
+.case5-row1-item3-random2-1 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #ddd;
+    z-index: 11;
+    
+}
+.case5-row1-item3-random2-1::after{
+    /* content: "Man"; */
+    font-size: 25px;
+    font-weight: 800;
+    position: absolute;
+    top: 50px;
+    left: 15px;
+}
+.case5-row1-item3-random2-acc1::after{
+    position: absolute;
+    font-size: 20px;
+    top: 60px;
+    left: 15px;
+    /* content: "Đàn Ông"; */
+    color: red;
+    text-align: center;
+    z-index: 11;
+  }
+
+
+
+/*.case5-row1-item3-random2-2*/
+.case5-row1-item3-random2-2 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #ddd;
+    transform: translateX(100%);
+    z-index: 11;
+}
+.case5-row1-item3-random2-2::after{
+    /* content: "Woman"; */
+    font-size: 20px;
+    font-weight: 800;
+    position: absolute;
+    top: 50px;
+    left: 15px;
+}
+.case5-row1-item3-random2-acc2::after{
+    position: absolute;
+    font-size: 20px;
+    /* content: "Người Phụ Nữ"; */
+    color: red;
+    z-index: 11;
+  }
+/*.case5-row1-item1-random2-3*/
+.case5-row1-item3-random2-3 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #ddd;
+    transform: translateX(200%);
+    z-index: 11;
+}
+.case5-row1-item3-random2-3::after{
+    /* content: "Men"; */
+    font-size: 25px;
+    font-weight: 800;
+    position: absolute;
+    top: 50px;
+    left: 20px;
+}
+.case5-row1-item3-random2-acc3::after{
+    position: absolute;
+    font-size: 20px;
+    /* content: "Những người đàn ông"; */
+    color: red;
+    z-index: 11;
+  }
+
+
+  /*.case5-row1-item3-random2-4*/
+.case5-row1-item3-random2-4 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #ddd;
+    transform: translateX(300%);
+    z-index: 11;
+}
+.case5-row1-item3-random2-4::after{
+    /* content: "His"; */
+    font-size: 25px;
+    font-weight: 800;
+    position: absolute;
+    top: 50px;
+    left: 15px;
+    
+}
+.case5-row1-item3-random2-acc4::after{
+    position: absolute;
+    font-size: 20px;
+    /* content: "Anh ấy"; */
+    color: red;
+    z-index: 11;
+  }
+
+
+
+  /*.case5-row1-item3-random2-5*/
+  .case5-row1-item3-random2-5 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #ddd;
+    transform: translateX(400%);
+    z-index: 11;
+}
+.case5-row1-item3-random2-5::after{
+    /* content: "Her"; */
+    font-size: 25px;
+    font-weight: 800;
+    position: absolute;
+    top: 50px;
+    left: 15px;
+}
+.case5-row1-item3-random2-acc5::after{
+    position: absolute;
+    font-size: 20px;
+    /* content: "Cô ấy"; */
+    color: red;
+    z-index: 11;
+  }
+
+
+
+
+
+
+
+/*--------------------------------case5-row1-item4-ramdom2-------------*/
+.case5-row1-item4-random2{
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    transition: 0.5s ease all;
+}
+/*.case5-row1-item4-random2-1*/
+.case5-row1-item4-random2-1 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #ddd;
+    z-index: 11;
+    
+}
+.case5-row1-item4-random2-1::after{
+    /* content: "Man"; */
+    font-size: 25px;
+    font-weight: 800;
+    position: absolute;
+    top: 50px;
+    left: 15px;
+}
+.case5-row1-item4-random2-acc1::after{
+    position: absolute;
+    font-size: 20px;
+    top: 60px;
+    left: 15px;
+    /* content: "Đàn Ông"; */
+    color: red;
+    text-align: center;
+    z-index: 11;
+  }
+
+
+
+/*.case5-row1-ite4-random2-2*/
+.case5-row1-item4-random2-2 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #ddd;
+    transform: translateX(100%);
+    z-index: 11;
+}
+.case5-row1-item4-random2-2::after{
+    /* content: "Woman"; */
+    font-size: 25px;
+    font-weight: 800;
+    position: absolute;
+    top: 50px;
+    left: 15px;
+}
+.case5-row1-item4-random2-acc2::after{
+    position: absolute;
+    font-size: 20px;
+    /* content: "Người Phụ Nữ"; */
+    color: red;
+    z-index: 11;
+  }
+/*.case5-row1-item4-random2-3*/
+.case5-row1-item4-random2-3 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #ddd;
+    transform: translateX(200%);
+    z-index: 11;
+}
+.case5-row1-item4-random2-3::after{
+    /* content: "Men"; */
+    font-size: 25px;
+    font-weight: 800;
+    position: absolute;
+    top: 50px;
+    left: 20px;
+}
+.case5-row1-item4-random2-acc3::after{
+    position: absolute;
+    font-size: 20px;
+    /* content: "Những người đàn ông"; */
+    color: red;
+    z-index: 11;
+  }
+
+
+  /*.case5-row1-item4-random2-4*/
+.case5-row1-item4-random2-4 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #ddd;
+    transform: translateX(300%);
+    z-index: 11;
+}
+.case5-row1-item4-random2-4::after{
+    /* content: "His"; */
+    font-size: 25px;
+    font-weight: 800;
+    position: absolute;
+    top: 50px;
+    left: 15px;
+    
+}
+.case5-row1-item4-random2-acc4::after{
+    position: absolute;
+    font-size: 20px;
+    /* content: "Anh ấy"; */
+    color: red;
+    z-index: 11;
+  }
+
+
+
+  /*.case5-row1-item4-random2-5*/
+  .case5-row1-item4-random2-5 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #ddd;
+    transform: translateX(400%);
+    z-index: 11;
+}
+.case5-row1-item4-random2-5::after{
+    /* content: "Her"; */
+    font-size: 25px;
+    font-weight: 800;
+    position: absolute;
+    top: 50px;
+    left: 15px;
+}
+.case5-row1-item4-random2-acc5::after{
+    position: absolute;
+    font-size: 20px;
+    /* content: "Cô ấy"; */
+    color: red;
+    z-index: 11;
+  }
+
+
+/*note vocabulary case5-row1-item2-radom2 */
+/*1*/
+.case5-row1-item2-random2-1::after{
+    content: "difficult";
+}
+.case5-row1-item2-random2-acc1::after{
+    content: "khó";
+}
+/*2*/
+.case5-row1-item2-random2-2::after{
+    content: "solve";
+}
+.case5-row1-item2-random2-acc2::after{
+    content: "giải quyết";
+}
+/*3*/
+.case5-row1-item2-random2-3::after{
+    content: "instruction";
+}
+.case5-row1-item2-random2-acc3::after{
+    content: "hướng dẫn";
+}
+/*4*/
+.case5-row1-item2-random2-4::after{
+    content: "technician";
+}
+.case5-row1-item2-random2-acc4::after{
+    content: "kỹ thuật viên";
+}
+/*5*/
+.case5-row1-item2-random2-5::after{
+    content: "safety";
+}
+.case5-row1-item2-random2-acc5::after{
+    content: "an toàn";
+}  
+
+
+/*note vocabulary case5-row1-item1-radom1 */
+/*1*/
+.case5-row1-item1-random2-1::after{
+    content: "experiments";
+}
+.case5-row1-item1-random2-acc1::after{
+    content: "thí nghiệm";
+}
+/*2*/
+.case5-row1-item1-random2-2::after{
+    content: "thorough";
+}
+.case5-row1-item1-random2-acc2::after{
+    content: "kỹ lưỡng";
+}
+/*3*/
+.case5-row1-item1-random2-3::after{
+    content: "department store";
+}
+.case5-row1-item1-random2-acc3::after{
+    content: "cửa hàng bách hóa";
+}
+/*4*/
+.case5-row1-item1-random2-4::after{
+    content: "location";
+}
+.case5-row1-item1-random2-acc4::after{
+    content: "vị trí";
+}
+/*5*/
+.case5-row1-item1-random2-5::after{
+    content: "convenient";
+}
+.case5-row1-item1-random2-acc5::after{
+    content: "thuận lợi";
+}
+
+
+
+/*note vocabulary case5-row1-item3-radom2 */
+/*1*/
+.case5-row1-item3-random2-1::after{
+    content: "the heart of the city";
+}
+.case5-row1-item3-random2-acc1::after{
+    content: "trung tâm thành phố";
+}
+/*2*/
+.case5-row1-item3-random2-2::after{
+    content: "register";
+}
+.case5-row1-item3-random2-acc2::after{
+    content: "đăng kí";
+}
+/*3*/
+.case5-row1-item3-random2-3::after{
+    content: "available";
+}
+.case5-row1-item3-random2-acc3::after{
+    content: "có sẵn";
+}
+/*4*/
+.case5-row1-item3-random2-4::after{
+    content: "renew";
+}
+.case5-row1-item3-random2-acc4::after{
+    content: "gia hạn, đổi mới";
+}
+/*5*/
+.case5-row1-item3-random2-5::after{
+    content: "automate";
+}
+.case5-row1-item3-random2-acc5::after{
+    content: "tự động";
+}
+
+
+
+/*note vocabulary case5-row1-item4-random2 */
+/*1*/
+.case5-row1-item4-random2-1::after{
+    content: "//";
+}
+.case5-row1-item4-random2-acc1::after{
+    content: "tạm thời";
+}
+/*2*/
+.case5-row1-item4-random2-2::after{
+    content: "//";
+}
+.case5-row1-item4-random2-acc2::after{
+    content: "hết hàng";
+}
+/*3*/
+.case5-row1-item4-random2-3::after{
+    content: "//";
+}
+.case5-row1-item4-random2-acc3::after{
+    content: "quản lí";
+}
+/*4*/
+.case5-row1-item4-random2-4::after{
+    content: "//";
+}
+.case5-row1-item4-random2-acc4::after{
+    content: "nhà thầu";
+}
+/*5*/
+.case5-row1-item4-random2-5::after{
+    content: "//";
+}
+.case5-row1-item4-random2-acc5::after{
+    content: "chương trình";
+}
+
+
+
+/*-----------------------------------------------------row2----------------------------------------*/
+/*---------------------------------------------case5-row1-item1-rwamdom1----------------------------*/
+.case5-row2-item1-random2{
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    transition: 0.5s ease all;
+    
+}
+
+
+
+/*.case5-row2-item1-random2-1*/
+.case5-row2-item1-random2-1 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #ddd;    
+}
+.case5-row2-item1-random2-1::after{
+    /* content: "Man"; */
+    font-size: 25px;
+    font-weight: 800;
+    position: absolute;
+    top: 50px;
+    left: 10px;
+}
+.case5-row2-item1-random2-acc1::after{
+    position: absolute;
+    font-size: 20px;
+    top: 60px;
+    left: 15px;
+    /* content: "Đàn Ông"; */
+    color: red;
+    text-align: center;
+  }
+
+  /*.case5-row2-item1-random2-2*/
+.case5-row2-item1-random2-2 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #ddd;
+    transform: translateX(100%);
+}
+.case5-row2-item1-random2-2::after{
+    /* content: "Woman"; */
+    font-size: 25px;
+    font-weight: 800;
+    position: absolute;
+    top: 50px;
+    left: 15px;
+}
+.case5-row2-item1-random2-acc2::after{
+    position: absolute;
+    font-size: 20px;
+    /* content: "Người Phụ Nữ"; */
+    color: red;
+  }
+/*.case5-row2-item1-random2-3*/
+.case5-row2-item1-random2-3 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #ddd;
+    transform: translateX(200%);
+}
+.case5-row2-item1-random2-3::after{
+    /* content: "Men"; */
+    font-size: 25px;
+    font-weight: 800;
+    position: absolute;
+    top: 50px;
+    left: 15px;
+}
+.case5-row2-item1-random2-acc3::after{
+    position: absolute;
+    font-size: 20px;
+    /* content: "Những người đàn ông"; */
+    color: red;
+  }
+
+
+  /*.case5-row2-item1-random2-3*/
+.case5-row2-item1-random2-4 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #ddd;
+    transform: translateX(300%);
+}
+.case5-row2-item1-random2-4::after{
+    /* content: "His"; */
+    font-size: 25px;
+    font-weight: 800;
+    position: absolute;
+    top: 50px;
+    left: 15px;
+}
+.case5-row2-item1-random2-acc4::after{
+    position: absolute;
+    font-size: 20px;
+    /* content: "Anh ấy"; */
+    color: red;
+  }
+
+  /*.case5-row2-item1-random2-5*/
+  .case5-row2-item1-random2-5 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #ddd;
+    transform: translateX(400%);
+}
+.case5-row2-item1-random2-5::after{
+    /* content: "Her"; */
+    font-size: 25px;
+    font-weight: 800;
+    position: absolute;
+    top: 50px;
+    left: 15px;
+}
+.case5-row2-item1-random2-acc5::after{
+    position: absolute;
+    font-size: 20px;
+    /* content: "Cô ấy"; */
+    color: red;
+  }
+
+
+
+
+
+
+
+
+
+
+/*--------------------------------case5-row2-item2-ramdom2-------------*/
+.case5-row2-item2-random2{
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    transition: 0.5s ease all;
+}
+/*.case5-row2-item2-random2-1*/
+.case5-row2-item2-random2-1 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #ddd;
+    z-index: 10;
+    
+}
+.case5-row2-item2-random2-1::after{
+    /* content: "Man"; */
+    font-size: 25px;
+    font-weight: 800;
+    position: absolute;
+    top: 50px;
+    left: 15px;
+}
+.case5-row2-item2-random2-acc1::after{
+    position: absolute;
+    font-size: 20px;
+    /* content: "Đàn Ông"; */
+    color: red;
+    text-align: center;
+    z-index: 10;
+  }
+
+
+
+/*.case5-row2-item2-random2-2*/
+.case5-row2-item2-random2-2 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #ddd;
+    transform: translateX(100%);
+    z-index: 10;
+}
+.case5-row2-item2-random2-2::after{
+    /* content: "Woman"; */
+    font-size: 25px;
+    font-weight: 800;
+    position: absolute;
+    top: 50px;
+    left: 15px;
+}
+.case5-row2-item2-random2-acc2::after{
+    position: absolute;
+    font-size: 20px;
+    /* content: "Người Phụ Nữ"; */
+    color: red;
+    z-index: 10;
+  }
+/*.case5-row2-item1-random2-3*/
+.case5-row2-item2-random2-3 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #ddd;
+    transform: translateX(200%);
+    z-index: 10;
+}
+.case5-row2-item2-random2-3::after{
+    /* content: "Men"; */
+    font-size: 25px;
+    font-weight: 800;
+    position: absolute;
+    top: 50px;
+    left: 15px;
+}
+.case5-row2-item2-random2-acc3::after{
+    position: absolute;
+    font-size: 20px;
+    /* content: "Những người đàn ông"; */
+    color: red;
+    z-index: 10;
+  }
+
+
+  /*.case5-row2-item2-random2-4*/
+.case5-row2-item2-random2-4 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #ddd;
+    transform: translateX(300%);
+    z-index: 10;
+}
+.case5-row2-item2-random2-4::after{
+    /* content: "His"; */
+    font-size: 25px;
+    font-weight: 800;
+    position: absolute;
+    top: 50px;
+    left: 15px;
+    
+}
+.case5-row2-item2-random2-acc4::after{
+    position: absolute;
+    font-size: 20px;
+    /* content: "Anh ấy"; */
+    color: red;
+    z-index: 10;
+  }
+
+
+
+  /*.case5-row2-item2-random2-5*/
+  .case5-row2-item2-random2-5 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #ddd;
+    transform: translateX(400%);
+    z-index: 10;
+}
+.case5-row2-item2-random2-5::after{
+    /* content: "Her"; */
+    font-size: 25px;
+    font-weight: 800;
+    position: absolute;
+    top: 50px;
+    left: 15px;
+}
+.case5-row2-item2-random2-acc5::after{
+    position: absolute;
+    font-size: 20px;
+    /* content: "Cô ấy"; */
+    color: red;
+    z-index: 10;
+  }
+
+
+
+
+
+
+/*--------------------------------case5-row1-item3-ramdom2-------------*/
+.case5-row2-item3-random2{
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    transition: 0.5s ease all;
+}
+/*.case5-row2-item3-random2-1*/
+.case5-row2-item3-random2-1 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #ddd;
+    z-index: 11;
+    
+}
+.case5-row2-item3-random2-1::after{
+    /* content: "Man"; */
+    font-size: 25px;
+    font-weight: 800;
+    position: absolute;
+    top: 50px;
+    left: 15px;
+}
+.case5-row2-item3-random2-acc1::after{
+    position: absolute;
+    font-size: 20px;
+    top: 60px;
+    left: 15px;
+    /* content: "Đàn Ông"; */
+    color: red;
+    text-align: center;
+    z-index: 11;
+  }
+
+
+
+/*.case5-row2-item3-random2-2*/
+.case5-row2-item3-random2-2 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #ddd;
+    transform: translateX(100%);
+    z-index: 11;
+}
+.case5-row2-item3-random2-2::after{
+    /* content: "Woman"; */
+    font-size: 25px;
+    font-weight: 800;
+    position: absolute;
+    top: 50px;
+    left: 15px;
+}
+.case5-row2-item3-random2-acc2::after{
+    position: absolute;
+    font-size: 20px;
+    /* content: "Người Phụ Nữ"; */
+    color: red;
+    z-index: 11;
+  }
+/*.case5-row2-item1-random2-3*/
+.case5-row2-item3-random2-3 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #ddd;
+    transform: translateX(200%);
+    z-index: 11;
+}
+.case5-row2-item3-random2-3::after{
+    /* content: "Men"; */
+    font-size: 25px;
+    font-weight: 800;
+    position: absolute;
+    top: 50px;
+    left: 20px;
+}
+.case5-row2-item3-random2-acc3::after{
+    position: absolute;
+    font-size: 20px;
+    /* content: "Những người đàn ông"; */
+    color: red;
+    z-index: 11;
+  }
+
+
+  /*.case5-row2-item3-random2-4*/
+.case5-row2-item3-random2-4 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #ddd;
+    transform: translateX(300%);
+    z-index: 11;
+}
+.case5-row2-item3-random2-4::after{
+    /* content: "His"; */
+    font-size: 25px;
+    font-weight: 800;
+    position: absolute;
+    top: 50px;
+    left: 15px;
+    
+}
+.case5-row2-item3-random2-acc4::after{
+    position: absolute;
+    font-size: 20px;
+    /* content: "Anh ấy"; */
+    color: red;
+    z-index: 11;
+  }
+
+
+
+  /*.case5-row2-item3-random2-5*/
+  .case5-row2-item3-random2-5 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #ddd;
+    transform: translateX(400%);
+    z-index: 11;
+}
+.case5-row2-item3-random2-5::after{
+    /* content: "Her"; */
+    font-size: 25px;
+    font-weight: 800;
+    position: absolute;
+    top: 50px;
+    left: 15px;
+}
+.case5-row2-item3-random2-acc5::after{
+    position: absolute;
+    font-size: 20px;
+    /* content: "Cô ấy"; */
+    color: red;
+    z-index: 11;
+  }
+
+
+
+
+
+
+/*--------------------------------case5-row2-item4-ramdom2-------------*/
+.case5-row2-item4-random2{
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    transition: 0.5s ease all;
+}
+/*.case5-row2-item4-random2-1*/
+.case5-row2-item4-random2-1 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #ddd;
+    z-index: 11;
+    
+}
+.case5-row2-item4-random2-1::after{
+    /* content: "Man"; */
+    font-size: 25px;
+    font-weight: 800;
+    position: absolute;
+    top: 50px;
+    left: 15px;
+}
+.case5-row2-item4-random2-acc1::after{
+    position: absolute;
+    font-size: 20px;
+    top: 60px;
+    left: 15px;
+    /* content: "Đàn Ông"; */
+    color: red;
+    text-align: center;
+    z-index: 11;
+  }
+
+
+
+/*.case5-row2-ite4-random2-2*/
+.case5-row2-item4-random2-2 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #ddd;
+    transform: translateX(100%);
+    z-index: 11;
+}
+.case5-row2-item4-random2-2::after{
+    /* content: "Woman"; */
+    font-size: 25px;
+    font-weight: 800;
+    position: absolute;
+    top: 50px;
+    left: 15px;
+}
+.case5-row2-item4-random2-acc2::after{
+    position: absolute;
+    font-size: 20px;
+    /* content: "Người Phụ Nữ"; */
+    color: red;
+    z-index: 11;
+  }
+/*.case5-row2-item4-random2-3*/
+.case5-row2-item4-random2-3 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #ddd;
+    transform: translateX(200%);
+    z-index: 11;
+}
+.case5-row2-item4-random2-3::after{
+    /* content: "Men"; */
+    font-size: 25px;
+    font-weight: 800;
+    position: absolute;
+    top: 50px;
+    left: 20px;
+}
+.case5-row2-item4-random2-acc3::after{
+    position: absolute;
+    font-size: 20px;
+    /* content: "Những người đàn ông"; */
+    color: red;
+    z-index: 11;
+  }
+
+
+  /*.case5-row2-item4-random2-4*/
+.case5-row2-item4-random2-4 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #ddd;
+    transform: translateX(300%);
+    z-index: 11;
+}
+.case5-row2-item4-random2-4::after{
+    /* content: "His"; */
+    font-size: 20px;
+    font-weight: 800;
+    position: absolute;
+    top: 50px;
+    left: 15px;
+    
+}
+.case5-row2-item4-random2-acc4::after{
+    position: absolute;
+    font-size: 20px;
+    /* content: "Anh ấy"; */
+    color: red;
+    z-index: 11;
+  }
+
+
+
+  /*.case5-row2-item4-random2-5*/
+  .case5-row2-item4-random2-5 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #ddd;
+    transform: translateX(400%);
+    z-index: 11;
+}
+.case5-row2-item4-random2-5::after{
+    /* content: "Her"; */
+    font-size: 25px;
+    font-weight: 800;
+    position: absolute;
+    top: 50px;
+    left: 15px;
+}
+.case5-row2-item4-random2-acc5::after{
+    position: absolute;
+    font-size: 20px;
+    /* content: "Cô ấy"; */
+    color: red;
+    z-index: 11;
+  }
+
+/*note vocabulary case5-row2-item1-radom1 */
+/*1*/
+.case5-row2-item1-random2-1::after{
+    content: "vacation";
+}
+.case5-row2-item1-random2-acc1::after{
+    content: "kì nghỉ";
+}
+/*2*/
+.case5-row2-item1-random2-2::after{
+    content: "declared";
+}
+.case5-row2-item1-random2-acc2::after{
+    content: "khai báo";
+}
+/*3*/
+.case5-row2-item1-random2-3::after{
+    content: "conference";
+}
+.case5-row2-item1-random2-acc3::after{
+    content: "hội nghị";
+}
+/*4*/
+.case5-row2-item1-random2-4::after{
+    content: "deadline";
+}
+.case5-row2-item1-random2-acc4::after{
+    content: "hạn chót";
+}
+/*5*/
+.case5-row2-item1-random2-5::after{
+    content: "real estate agents";
+}
+.case5-row2-item1-random2-acc5::after{
+    content: "người môi giới bất động sản";
+}
+
+
+
+
+/*note vocabulary case5-row2-item2-radom2 */
+/*1*/
+.case5-row2-item2-random2-1::after{
+    content: "corner";
+}
+.case5-row2-item2-random2-acc1::after{
+    content: "góc";
+}
+/*2*/
+.case5-row2-item2-random2-2::after{
+    content: "proposal";
+}
+.case5-row2-item2-random2-acc2::after{
+    content: "đề xuất";
+}
+/*3*/
+.case5-row2-item2-random2-3::after{
+    content: "take place";
+}
+.case5-row2-item2-random2-acc3::after{
+    content: "diễn ra";
+}
+/*4*/
+.case5-row2-item2-random2-4::after{
+    content: "employee";
+}
+.case5-row2-item2-random2-acc4::after{
+    content: "nhân viên";
+}
+/*5*/
+.case5-row2-item2-random2-5::after{
+    content: "happen";
+}
+.case5-row2-item2-random2-acc5::after{
+    content: "diễn ra/xảy ra";
+}
+
+
+/*note vocabulary case5-row2-item3-radom2 */
+/*1*/
+.case5-row2-item3-random2-1::after{
+    content: "theater";
+}
+.case5-row2-item3-random2-acc1::after{
+    content: "nghe hát";
+}
+/*2*/
+.case5-row2-item3-random2-2::after{
+    content: "movie theater";
+}
+.case5-row2-item3-random2-acc2::after{
+    content: "rạp chiếu phim";
+}
+/*3*/
+.case5-row2-item3-random2-3::after{
+    content: "museum";
+}
+.case5-row2-item3-random2-acc3::after{
+    content: "bảo tàng";
+}
+/*4*/
+.case5-row2-item3-random2-4::after{
+    content: "relative";
+}
+.case5-row2-item3-random2-acc4::after{
+    content: "họ hàng";
+}
+/*5*/
+.case5-row2-item3-random2-5::after{
+    content: "home";
+}
+.case5-row2-item3-random2-acc5::after{
+    content: "nhà(nơi ấm áp, nơi quay về tình cảm)";
+}
+
+/*note vocabulary case5-row2-item4-random2 */
+/*1*/
+.case5-row2-item4-random2-1::after{
+    content: "house";
+}
+.case5-row2-item4-random2-acc1::after{
+    content: "nhà(cái nhà thôi)";
+}
+/*2*/
+.case5-row2-item4-random2-2::after{
+    content: "italian";
+}
+.case5-row2-item4-random2-acc2::after{
+    content: "người ý";
+}
+/*3*/
+.case5-row2-item4-random2-3::after{
+    content: "french";
+}
+.case5-row2-item4-random2-acc3::after{
+    content: "người pháp";
+}
+/*4*/
+.case5-row2-item4-random2-4::after{
+    content: "decade";
+}
+.case5-row2-item4-random2-acc4::after{
+    content: "thập kỉ";
+}
+/*5*/
+.case5-row2-item4-random2-5::after{
+    content: "by + time";
+}
+.case5-row2-item4-random2-acc5::after{
+    content: "trước ...";
+}
+
+
+
+/*-----------------------------------------------------row3----------------------------------------*/
+/*---------------------------------------------case5-row3-item1-rwamdom1----------------------------*/
+.case5-row3-item1-random2{
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    transition: 0.5s ease all;
+    
+}
+
+
+/*.case5-row3-item1-random2-1*/
+.case5-row3-item1-random2-1 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #ddd;    
+}
+.case5-row3-item1-random2-1::after{
+    /* content: "Man"; */
+    font-size: 25px;
+    font-weight: 800;
+    position: absolute;
+    top: 50px;
+    left: 10px;
+}
+.case5-row3-item1-random2-acc1::after{
+    position: absolute;
+    font-size: 20px;
+    top: 60px;
+    /* left: 15px; */
+    /* content: "Đàn Ông"; */
+    color: red;
+    text-align: center;
+  }
+
+  /*.case5-row3-item1-random2-2*/
+.case5-row3-item1-random2-2 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #ddd;
+    transform: translateX(100%);
+}
+.case5-row3-item1-random2-2::after{
+    /* content: "Woman"; */
+    font-size: 25px;
+    font-weight: 800;
+    position: absolute;
+    top: 50px;
+    left: 15px;
+}
+.case5-row3-item1-random2-acc2::after{
+    position: absolute;
+    font-size: 20px;
+    /* content: "Người Phụ Nữ"; */
+    color: red;
+  }
+/*.case5-row3-item1-random2-3*/
+.case5-row3-item1-random2-3 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #ddd;
+    transform: translateX(200%);
+}
+.case5-row3-item1-random2-3::after{
+    /* content: "Men"; */
+    font-size: 25px;
+    font-weight: 800;
+    position: absolute;
+    top: 50px;
+    left: 15px;
+}
+.case5-row3-item1-random2-acc3::after{
+    position: absolute;
+    font-size: 20px;
+    /* content: "Những người đàn ông"; */
+    color: red;
+  }
+
+
+  /*.case5-row3-item1-random2-3*/
+.case5-row3-item1-random2-4 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #ddd;
+    transform: translateX(300%);
+}
+.case5-row3-item1-random2-4::after{
+    /* content: "His"; */
+    font-size: 25px;
+    font-weight: 800;
+    position: absolute;
+    top: 50px;
+    left: 15px;
+}
+.case5-row3-item1-random2-acc4::after{
+    position: absolute;
+    font-size: 20px;
+    /* content: "Anh ấy"; */
+    color: red;
+  }
+
+  /*.case5-row3-item1-random2-5*/
+  .case5-row3-item1-random2-5 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #ddd;
+    transform: translateX(400%);
+}
+.case5-row3-item1-random2-5::after{
+    /* content: "Her"; */
+    font-size: 25px;
+    font-weight: 800;
+    position: absolute;
+    top: 50px;
+    left: 15px;
+}
+.case5-row3-item1-random2-acc5::after{
+    position: absolute;
+    font-size: 20px;
+    /* content: "Cô ấy"; */
+    color: red;
+  }
+
+
+
+
+
+
+
+
+
+
+/*--------------------------------case5-row3-item2-ramdom2-------------*/
+.case5-row3-item2-random2{
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    transition: 0.5s ease all;
+}
+/*.case5-row3-item2-random2-1*/
+.case5-row3-item2-random2-1 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #ddd;
+    z-index: 10;
+    
+}
+.case5-row3-item2-random2-1::after{
+    /* content: "Man"; */
+    font-size: 25px;
+    font-weight: 800;
+    position: absolute;
+    top: 50px;
+    left: 15px;
+}
+.case5-row3-item2-random2-acc1::after{
+    position: absolute;
+    font-size: 20px;
+    top: 60px;
+    /* content: "Đàn Ông"; */
+    color: red;
+    text-align: center;
+    z-index: 10;
+  }
+
+
+
+/*.case5-row3-item2-random2-2*/
+.case5-row3-item2-random2-2 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #ddd;
+    transform: translateX(100%);
+    z-index: 10;
+}
+.case5-row3-item2-random2-2::after{
+    /* content: "Woman"; */
+    font-size: 25px;
+    font-weight: 800;
+    position: absolute;
+    top: 50px;
+    left: 15px;
+}
+.case5-row3-item2-random2-acc2::after{
+    position: absolute;
+    font-size: 20px;
+    /* content: "Người Phụ Nữ"; */
+    color: red;
+    z-index: 10;
+  }
+/*.case5-row3-item1-random2-3*/
+.case5-row3-item2-random2-3 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #ddd;
+    transform: translateX(200%);
+    z-index: 10;
+}
+.case5-row3-item2-random2-3::after{
+    /* content: "Men"; */
+    font-size: 25px;
+    font-weight: 800;
+    position: absolute;
+    top: 50px;
+    left: 15px;
+}
+.case5-row3-item2-random2-acc3::after{
+    position: absolute;
+    font-size: 20px;
+    /* content: "Những người đàn ông"; */
+    color: red;
+    z-index: 10;
+  }
+
+
+  /*.case5-row3-item2-random2-4*/
+.case5-row3-item2-random2-4 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #ddd;
+    transform: translateX(300%);
+    z-index: 10;
+}
+.case5-row3-item2-random2-4::after{
+    /* content: "His"; */
+    font-size: 25px;
+    font-weight: 800;
+    position: absolute;
+    top: 50px;
+    left: 15px;
+    
+}
+.case5-row3-item2-random2-acc4::after{
+    position: absolute;
+    font-size: 20px;
+    /* content: "Anh ấy"; */
+    color: red;
+    z-index: 10;
+  }
+
+
+
+  /*.case5-row3-item2-random2-5*/
+  .case5-row3-item2-random2-5 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #ddd;
+    transform: translateX(400%);
+    z-index: 10;
+}
+.case5-row3-item2-random2-5::after{
+    /* content: "Her"; */
+    font-size: 25px;
+    font-weight: 800;
+    position: absolute;
+    top: 50px;
+    left: 15px;
+}
+.case5-row3-item2-random2-acc5::after{
+    position: absolute;
+    font-size: 20px;
+    /* content: "Cô ấy"; */
+    color: red;
+    z-index: 10;
+  }
+
+
+
+
+
+
+/*--------------------------------case5-row3-item3-ramdom2-------------*/
+.case5-row3-item3-random2{
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    transition: 0.5s ease all;
+}
+/*.case5-row3-item3-random2-1*/
+.case5-row3-item3-random2-1 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #ddd;
+    z-index: 11;
+    
+}
+.case5-row3-item3-random2-1::after{
+    /* content: "Man"; */
+    font-size: 25px;
+    font-weight: 800;
+    position: absolute;
+    top: 50px;
+    left: 15px;
+}
+.case5-row3-item3-random2-acc1::after{
+    position: absolute;
+    font-size: 20px;
+    top: 60px;
+    left: 15px;
+    /* content: "Đàn Ông"; */
+    color: red;
+    text-align: center;
+    z-index: 11;
+  }
+
+
+
+/*.case5-row3-item3-random2-2*/
+.case5-row3-item3-random2-2 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #ddd;
+    transform: translateX(100%);
+    z-index: 11;
+}
+.case5-row3-item3-random2-2::after{
+    /* content: "Woman"; */
+    font-size: 25px;
+    font-weight: 800;
+    position: absolute;
+    top: 50px;
+    left: 15px;
+}
+.case5-row3-item3-random2-acc2::after{
+    position: absolute;
+    font-size: 20px;
+    /* content: "Người Phụ Nữ"; */
+    color: red;
+    z-index: 11;
+  }
+/*.case5-row3-item1-random2-3*/
+.case5-row3-item3-random2-3 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #ddd;
+    transform: translateX(200%);
+    z-index: 11;
+}
+.case5-row3-item3-random2-3::after{
+    /* content: "Men"; */
+    font-size: 25px;
+    font-weight: 800;
+    position: absolute;
+    top: 50px;
+    left: 20px;
+}
+.case5-row3-item3-random2-acc3::after{
+    position: absolute;
+    font-size: 20px;
+    /* content: "Những người đàn ông"; */
+    color: red;
+    z-index: 11;
+  }
+
+
+  /*.case5-row3-item3-random2-4*/
+.case5-row3-item3-random2-4 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #ddd;
+    transform: translateX(300%);
+    z-index: 11;
+}
+.case5-row3-item3-random2-4::after{
+    /* content: "His"; */
+    font-size: 25px;
+    font-weight: 800;
+    position: absolute;
+    top: 50px;
+    left: 15px;
+    
+}
+.case5-row3-item3-random2-acc4::after{
+    position: absolute;
+    font-size: 20px;
+    /* content: "Anh ấy"; */
+    color: red;
+    z-index: 11;
+  }
+
+
+
+  /*.case5-row3-item3-random2-5*/
+  .case5-row3-item3-random2-5 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #ddd;
+    transform: translateX(400%);
+    z-index: 11;
+}
+.case5-row3-item3-random2-5::after{
+    /* content: "Her"; */
+    font-size: 25px;
+    font-weight: 800;
+    position: absolute;
+    top: 50px;
+    left: 15px;
+}
+.case5-row3-item3-random2-acc5::after{
+    position: absolute;
+    font-size: 20px;
+    /* content: "Cô ấy"; */
+    color: red;
+    z-index: 11;
+  }
+
+
+
+
+
+
+/*--------------------------------case5-row3-item4-ramdom2-------------*/
+.case5-row3-item4-random2{
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    transition: 0.5s ease all;
+}
+/*.case5-row3-item4-random2-1*/
+.case5-row3-item4-random2-1 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #ddd;
+    z-index: 11;
+    
+}
+.case5-row3-item4-random2-1::after{
+    /* content: "Man"; */
+    font-size: 25px;
+    font-weight: 800;
+    position: absolute;
+    top: 50px;
+    left: 15px;
+}
+.case5-row3-item4-random2-acc1::after{
+    position: absolute;
+    font-size: 20px;
+    top: 60px;
+    left: 15px;
+    /* content: "Đàn Ông"; */
+    color: red;
+    text-align: center;
+    z-index: 11;
+  }
+
+
+
+/*.case5-row3-ite4-random2-2*/
+.case5-row3-item4-random2-2 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #ddd;
+    transform: translateX(100%);
+    z-index: 11;
+}
+.case5-row3-item4-random2-2::after{
+    /* content: "Woman"; */
+    font-size: 25px;
+    font-weight: 800;
+    position: absolute;
+    top: 50px;
+    left: 15px;
+}
+.case5-row3-item4-random2-acc2::after{
+    position: absolute;
+    font-size: 20px;
+    /* content: "Người Phụ Nữ"; */
+    color: red;
+    z-index: 11;
+  }
+/*.case5-row3-item4-random2-3*/
+.case5-row3-item4-random2-3 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #ddd;
+    transform: translateX(200%);
+    z-index: 11;
+}
+.case5-row3-item4-random2-3::after{
+    /* content: "Men"; */
+    font-size: 25px;
+    font-weight: 800;
+    position: absolute;
+    top: 50px;
+    left: 20px;
+}
+.case5-row3-item4-random2-acc3::after{
+    position: absolute;
+    font-size: 20px;
+    /* content: "Những người đàn ông"; */
+    color: red;
+    z-index: 11;
+  }
+
+
+  /*.case5-row3-item4-random2-4*/
+.case5-row3-item4-random2-4 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #ddd;
+    transform: translateX(300%);
+    z-index: 11;
+}
+.case5-row3-item4-random2-4::after{
+    /* content: "His"; */
+    font-size: 25px;
+    font-weight: 800;
+    position: absolute;
+    top: 50px;
+    left: 15px;
+    
+}
+.case5-row3-item4-random2-acc4::after{
+    position: absolute;
+    font-size: 20px;
+    /* content: "Anh ấy"; */
+    color: red;
+    z-index: 11;
+  }
+
+
+
+  /*.case5-row3-item4-random2-5*/
+  .case5-row3-item4-random2-5 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #ddd;
+    transform: translateX(400%);
+    z-index: 11;
+}
+.case5-row3-item4-random2-5::after{
+    /* content: "Her"; */
+    font-size: 25px;
+    font-weight: 800;
+    position: absolute;
+    top: 50px;
+    left: 15px;
+}
+.case5-row3-item4-random2-acc5::after{
+    position: absolute;
+    font-size: 20px;
+    /* content: "Cô ấy"; */
+    color: red;
+    z-index: 11;
+  }
+
+/*note vocabulary case5-row3-item1-radom1 */
+/*1*/
+.case5-row3-item1-random2-1::after{
+    content: "by + nơi chốn";
+}
+.case5-row3-item1-random2-acc1::after{
+    content: "gần ...";
+}
+/*2*/
+.case5-row3-item1-random2-2::after{
+    content: "by + V";
+}
+.case5-row3-item1-random2-acc2::after{
+    content: "bằng cách V(gì đó)";
+}
+/*3*/
+.case5-row3-item1-random2-3::after{
+    content: "by + người";
+}
+.case5-row3-item1-random2-acc3::after{
+    content: "bởi ai đó(người)";
+}
+/*4*/
+.case5-row3-item1-random2-4::after{
+    content: "going aboard";
+}
+.case5-row3-item1-random2-acc4::after{
+    content: "đi nước ngoài";
+}
+/*5*/
+.case5-row3-item1-random2-5::after{
+    content: "oversea";
+}
+.case5-row3-item1-random2-acc5::after{
+    content: "đi nước ngoài";
+}
+
+
+
+
+/*note vocabulary case5-row3-item2-radom2 */
+/*1*/
+.case5-row3-item2-random2-1::after{
+    content: "a customs officer";
+}
+.case5-row3-item2-random2-acc1::after{
+    content: "nhân viên hải quang";
+}
+/*2*/
+.case5-row3-item2-random2-2::after{
+    content: "a flight attendant";
+}
+.case5-row3-item2-random2-acc2::after{
+    content: "tiếp viên hàng không";
+}
+/*3*/
+.case5-row3-item2-random2-3::after{
+    content: "a travel agent";
+}
+.case5-row3-item2-random2-acc3::after{
+    content: "nhân viên du lịch";
+}
+/*4*/
+.case5-row3-item2-random2-4::after{
+    content: "exercise";
+}
+.case5-row3-item2-random2-acc4::after{
+    content: "luyện tập, bài tập";
+}
+/*5*/
+.case5-row3-item2-random2-5::after{
+    content: "health club";
+}
+.case5-row3-item2-random2-acc5::after{
+    content: "tập gym";
+}
+
+
+/*note vocabulary case5-row3-item3-radom2 */
+/*1*/
+.case5-row3-item3-random2-1::after{
+    content: "pool";
+}
+.case5-row3-item3-random2-acc1::after{
+    content: "hồ";
+}
+/*2*/
+.case5-row3-item3-random2-2::after{
+    content: "probably";
+}
+.case5-row3-item3-random2-acc2::after{
+    content: "chắc là";
+}
+/*3*/
+.case5-row3-item3-random2-3::after{
+    content: "healthy diet";
+}
+.case5-row3-item3-random2-acc3::after{
+    content: "chế độ ăn uống lành mạnh";
+}
+/*4*/
+.case5-row3-item3-random2-4::after{
+    content: "unfortunate";
+}
+.case5-row3-item3-random2-acc4::after{
+    content: "không mai mắn, bất hạnh";
+}
+/*5*/
+.case5-row3-item3-random2-5::after{
+    content: "season";
+}
+.case5-row3-item3-random2-acc5::after{
+    content: "mùa, vụ, dự án";
+}
+
+/*note vocabulary case5-row3-item4-random2 */
+/*1*/
+.case5-row3-item4-random2-1::after{
+    content: "consider";
+}
+.case5-row3-item4-random2-acc1::after{
+    content: "được xem xét";
+}
+/*2*/
+.case5-row3-item4-random2-2::after{
+    content: "useful";
+}
+.case5-row3-item4-random2-acc2::after{
+    content: "hữu ích";
+}
+/*3*/
+.case5-row3-item4-random2-3::after{
+    content: "among";
+}
+.case5-row3-item4-random2-acc3::after{
+    content: "trong đó";
+}
+/*4*/
+.case5-row3-item4-random2-4::after{
+    content: "entire";
+}
+.case5-row3-item4-random2-acc4::after{
+    content: "toàn bộ";
+}
+/*5*/
+.case5-row3-item4-random2-5::after{
+    content: "staff";
+}
+.case5-row3-item4-random2-acc5::after{
+    content: "nhân viên";
+}
+
+
+
+

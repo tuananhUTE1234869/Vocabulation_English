@@ -13,6 +13,46 @@ rd_back.addEventListener("click", function(){
 
 
 
+//----------------------------------Login - Password----------------------------------
+const Value_Password = document.querySelector(".login-password-content-text-input-value")
+const Container_login = document.querySelector(".login-password")
+const login_button = document.querySelector(".login-password-content-text-button-login")
+
+
+function delay(){
+    setTimeout(()=>{
+        document.querySelector(".login-error").style.display="none";
+        bien_co = 1;
+    },3000);
+    
+}
+
+let Value_password=324869;
+let bien_co = 1;
+
+Value_Password.onkeyup = (e) => {
+    let current = e.target.value;
+    console.log(current);
+    if (Value_password==current){
+        login_button.addEventListener("click", function(){
+            document.querySelector(".login-password").style.display="none"
+        })
+    }else{
+        login_button.addEventListener("click", function(){
+            document.querySelector(".login-error").style.display="flex";
+            if (bien_co == 1){
+                bien_co = 0;
+                delay();
+            }
+            
+        })
+    
+    }
+}
+
+
+
+
 
 
 

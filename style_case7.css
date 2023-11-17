@@ -1,4 +1,4 @@
-.case6{
+.case7{
     position: absolute;
     top: 0;
     width: 100%;
@@ -8,7 +8,7 @@
     z-index: 15;
 }
 
-.case6-title{
+.case7-title{
     position: absolute;
     width: 100%;
     height: 10%;
@@ -18,21 +18,21 @@
     align-items: center;
     user-select: none;
 }
-.case6-title-text{
-    width: 35%;
+.case7-title-text{
+    width: 40%;
     height: 100%;
     /* background: green; */
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.case6-title-text > h3 {
+.case7-title-text > h3 {
     color: white;
     font-weight: 800;
     font-size: 40px;
 
 }
-.case6 .case6-container{
+.case7 .case7-container{
     position: relative;
     margin-top: 130px;
     margin-left: 300px;
@@ -41,7 +41,7 @@
     background: linear-gradient(#081b29, #0ef, #081b29, #0ef);
     box-shadow: 0 0 100px #0ef;
 }
-.case6 .case6-container .xdong6{
+.case7 .case7-container .xdong7{
     position: absolute;
     right: 0;
     display: flex;
@@ -54,10 +54,10 @@
     user-select: none;
     color: white;
 }
-.case6 .case6-container .xdong6:hover {
+.case7 .case7-container .xdong7:hover {
     background: rgb(255,0,0);
 }
-.reset6 {
+.reset7 {
     position: absolute;
     display: flex;
     margin-left: 45%;
@@ -70,13 +70,13 @@
     user-select: none;
     background:rgba(255,0,0,0.5);
 }
-.reset6:hover {
+.reset7:hover {
     background: red;
     cursor: pointer;
 }
 
-/* all element in case6 */
-.case6-row{
+/* all element in case7 */
+.case7-row{
     position: absolute;
     top: 5%;
     left: 5%;
@@ -115,8 +115,8 @@
 
 
 /*-----------------------------------------------------row1----------------------------------------*/
-/*---------------------------------------------case6-row1-item1-rwamdom1----------------------------*/
-.case6-row1-item1-random2{
+/*---------------------------------------------case7-row1-item1-rwamdom1----------------------------*/
+.case7-row1-item1-random2{
     position: relative;
     display: flex;
     width: 100%;
@@ -127,14 +127,14 @@
 
 
 
-/*.case6-row1-item1-random2-1*/
-.case6-row1-item1-random2-1 {
+/*.case7-row1-item1-random2-1*/
+.case7-row1-item1-random2-1 {
     position: absolute;
     width: 100%;
     height: 100%;
     background: #ddd;    
 }
-.case6-row1-item1-random2-1::after{
+.case7-row1-item1-random2-1::after{
     /* content: "Man"; */
     font-size: 25px;
     font-weight: 800;
@@ -142,7 +142,7 @@
     top: 50px;
     left: 10px;
 }
-.case6-row1-item1-random2-acc1::after{
+.case7-row1-item1-random2-acc1::after{
     position: absolute;
     font-size: 20px;
     top: 60px;
@@ -152,15 +152,15 @@
     text-align: center;
   }
 
-  /*.case6-row1-item1-random2-2*/
-.case6-row1-item1-random2-2 {
+  /*.case7-row1-item1-random2-2*/
+.case7-row1-item1-random2-2 {
     position: absolute;
     width: 100%;
     height: 100%;
     background: #ddd;
     transform: translateX(100%);
 }
-.case6-row1-item1-random2-2::after{
+.case7-row1-item1-random2-2::after{
     /* content: "Woman"; */
     font-size: 25px;
     font-weight: 800;
@@ -168,21 +168,21 @@
     top: 50px;
     left: 15px;
 }
-.case6-row1-item1-random2-acc2::after{
+.case7-row1-item1-random2-acc2::after{
     position: absolute;
     font-size: 20px;
     /* content: "Người Phụ Nữ"; */
     color: red;
   }
-/*.case6-row1-item1-random2-3*/
-.case6-row1-item1-random2-3 {
+/*.case7-row1-item1-random2-3*/
+.case7-row1-item1-random2-3 {
     position: absolute;
     width: 100%;
     height: 100%;
     background: #ddd;
     transform: translateX(200%);
 }
-.case6-row1-item1-random2-3::after{
+.case7-row1-item1-random2-3::after{
     /* content: "Men"; */
     font-size: 25px;
     font-weight: 800;
@@ -190,7 +190,7 @@
     top: 50px;
     left: 15px;
 }
-.case6-row1-item1-random2-acc3::after{
+.case7-row1-item1-random2-acc3::after{
     position: absolute;
     font-size: 20px;
     /* content: "Những người đàn ông"; */
@@ -198,15 +198,15 @@
   }
 
 
-  /*.case6-row1-item1-random2-3*/
-.case6-row1-item1-random2-4 {
+  /*.case7-row1-item1-random2-3*/
+.case7-row1-item1-random2-4 {
     position: absolute;
     width: 100%;
     height: 100%;
     background: #ddd;
     transform: translateX(300%);
 }
-.case6-row1-item1-random2-4::after{
+.case7-row1-item1-random2-4::after{
     /* content: "His"; */
     font-size: 25px;
     font-weight: 800;
@@ -214,22 +214,22 @@
     top: 50px;
     left: 15px;
 }
-.case6-row1-item1-random2-acc4::after{
+.case7-row1-item1-random2-acc4::after{
     position: absolute;
     font-size: 20px;
     /* content: "Anh ấy"; */
     color: red;
   }
 
-  /*.case6-row1-item1-random2-5*/
-.case6-row1-item1-random2-5 {
+  /*.case7-row1-item1-random2-5*/
+.case7-row1-item1-random2-5 {
     position: absolute;
     width: 100%;
     height: 100%;
     background: #ddd;
     transform: translateX(400%);
 }
-.case6-row1-item1-random2-5::after{
+.case7-row1-item1-random2-5::after{
     /* content: "Her"; */
     font-size: 25px;
     font-weight: 800;
@@ -237,7 +237,7 @@
     top: 50px;
     left: 15px;
 }
-.case6-row1-item1-random2-acc5::after{
+.case7-row1-item1-random2-acc5::after{
     position: absolute;
     font-size: 20px;
     /* content: "Cô ấy"; */
@@ -252,16 +252,16 @@
 
 
 
-/*--------------------------------case6-row1-item2-ramdom2-------------*/
-.case6-row1-item2-random2{
+/*--------------------------------case7-row1-item2-ramdom2-------------*/
+.case7-row1-item2-random2{
     position: relative;
     display: flex;
     width: 100%;
     height: 100%;
     transition: 0.5s ease all;
 }
-/*.case6-row1-item2-random2-1*/
-.case6-row1-item2-random2-1 {
+/*.case7-row1-item2-random2-1*/
+.case7-row1-item2-random2-1 {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -269,7 +269,7 @@
     z-index: 10;
     
 }
-.case6-row1-item2-random2-1::after{
+.case7-row1-item2-random2-1::after{
     /* content: "Man"; */
     font-size: 25px;
     font-weight: 800;
@@ -277,7 +277,7 @@
     top: 50px;
     left: 15px;
 }
-.case6-row1-item2-random2-acc1::after{
+.case7-row1-item2-random2-acc1::after{
     position: absolute;
     font-size: 20px;
     /* content: "Đàn Ông"; */
@@ -288,8 +288,8 @@
 
 
 
-/*.case6-row1-item2-random2-2*/
-.case6-row1-item2-random2-2 {
+/*.case7-row1-item2-random2-2*/
+.case7-row1-item2-random2-2 {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -297,7 +297,7 @@
     transform: translateX(100%);
     z-index: 10;
 }
-.case6-row1-item2-random2-2::after{
+.case7-row1-item2-random2-2::after{
     /* content: "Woman"; */
     font-size: 25px;
     font-weight: 800;
@@ -305,15 +305,15 @@
     top: 50px;
     left: 15px;
 }
-.case6-row1-item2-random2-acc2::after{
+.case7-row1-item2-random2-acc2::after{
     position: absolute;
     font-size: 20px;
     /* content: "Người Phụ Nữ"; */
     color: red;
     z-index: 10;
   }
-/*.case6-row1-item1-random2-3*/
-.case6-row1-item2-random2-3 {
+/*.case7-row1-item1-random2-3*/
+.case7-row1-item2-random2-3 {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -321,7 +321,7 @@
     transform: translateX(200%);
     z-index: 10;
 }
-.case6-row1-item2-random2-3::after{
+.case7-row1-item2-random2-3::after{
     /* content: "Men"; */
     font-size: 25px;
     font-weight: 800;
@@ -329,7 +329,7 @@
     top: 50px;
     left: 15px;
 }
-.case6-row1-item2-random2-acc3::after{
+.case7-row1-item2-random2-acc3::after{
     position: absolute;
     font-size: 20px;
     /* content: "Những người đàn ông"; */
@@ -338,8 +338,8 @@
   }
 
 
-  /*.case6-row1-item2-random2-4*/
-.case6-row1-item2-random2-4 {
+  /*.case7-row1-item2-random2-4*/
+.case7-row1-item2-random2-4 {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -347,7 +347,7 @@
     transform: translateX(300%);
     z-index: 10;
 }
-.case6-row1-item2-random2-4::after{
+.case7-row1-item2-random2-4::after{
     /* content: "His"; */
     font-size: 25px;
     font-weight: 800;
@@ -356,7 +356,7 @@
     left: 15px;
     
 }
-.case6-row1-item2-random2-acc4::after{
+.case7-row1-item2-random2-acc4::after{
     position: absolute;
     font-size: 20px;
     /* content: "Anh ấy"; */
@@ -366,8 +366,8 @@
 
 
 
-  /*.case6-row1-item2-random2-5*/
-.case6-row1-item2-random2-5 {
+  /*.case7-row1-item2-random2-5*/
+.case7-row1-item2-random2-5 {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -375,7 +375,7 @@
     transform: translateX(400%);
     z-index: 10;
 }
-.case6-row1-item2-random2-5::after{
+.case7-row1-item2-random2-5::after{
     /* content: "Her"; */
     font-size: 25px;
     font-weight: 800;
@@ -383,7 +383,7 @@
     top: 50px;
     left: 15px;
 }
-.case6-row1-item2-random2-acc5::after{
+.case7-row1-item2-random2-acc5::after{
     position: absolute;
     font-size: 20px;
     /* content: "Cô ấy"; */
@@ -397,16 +397,16 @@
 
 
 
-/*--------------------------------case6-row1-item3-ramdom2-------------*/
-.case6-row1-item3-random2{
+/*--------------------------------case7-row1-item3-ramdom2-------------*/
+.case7-row1-item3-random2{
     position: relative;
     display: flex;
     width: 100%;
     height: 100%;
     transition: 0.5s ease all;
 }
-/*.case6-row1-item3-random2-1*/
-.case6-row1-item3-random2-1 {
+/*.case7-row1-item3-random2-1*/
+.case7-row1-item3-random2-1 {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -414,7 +414,7 @@
     z-index: 11;
     
 }
-.case6-row1-item3-random2-1::after{
+.case7-row1-item3-random2-1::after{
     /* content: "Man"; */
     font-size: 25px;
     font-weight: 800;
@@ -422,7 +422,7 @@
     top: 50px;
     left: 15px;
 }
-.case6-row1-item3-random2-acc1::after{
+.case7-row1-item3-random2-acc1::after{
     position: absolute;
     font-size: 20px;
     top: 60px;
@@ -435,8 +435,8 @@
 
 
 
-/*.case6-row1-item3-random2-2*/
-.case6-row1-item3-random2-2 {
+/*.case7-row1-item3-random2-2*/
+.case7-row1-item3-random2-2 {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -444,7 +444,7 @@
     transform: translateX(100%);
     z-index: 11;
 }
-.case6-row1-item3-random2-2::after{
+.case7-row1-item3-random2-2::after{
     /* content: "Woman"; */
     font-size: 20px;
     font-weight: 800;
@@ -452,15 +452,15 @@
     top: 50px;
     left: 15px;
 }
-.case6-row1-item3-random2-acc2::after{
+.case7-row1-item3-random2-acc2::after{
     position: absolute;
     font-size: 20px;
     /* content: "Người Phụ Nữ"; */
     color: red;
     z-index: 11;
   }
-/*.case6-row1-item1-random2-3*/
-.case6-row1-item3-random2-3 {
+/*.case7-row1-item1-random2-3*/
+.case7-row1-item3-random2-3 {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -468,7 +468,7 @@
     transform: translateX(200%);
     z-index: 11;
 }
-.case6-row1-item3-random2-3::after{
+.case7-row1-item3-random2-3::after{
     /* content: "Men"; */
     font-size: 25px;
     font-weight: 800;
@@ -476,7 +476,7 @@
     top: 50px;
     left: 20px;
 }
-.case6-row1-item3-random2-acc3::after{
+.case7-row1-item3-random2-acc3::after{
     position: absolute;
     font-size: 20px;
     /* content: "Những người đàn ông"; */
@@ -485,8 +485,8 @@
   }
 
 
-  /*.case6-row1-item3-random2-4*/
-.case6-row1-item3-random2-4 {
+  /*.case7-row1-item3-random2-4*/
+.case7-row1-item3-random2-4 {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -494,7 +494,7 @@
     transform: translateX(300%);
     z-index: 11;
 }
-.case6-row1-item3-random2-4::after{
+.case7-row1-item3-random2-4::after{
     /* content: "His"; */
     font-size: 25px;
     font-weight: 800;
@@ -503,7 +503,7 @@
     left: 15px;
     
 }
-.case6-row1-item3-random2-acc4::after{
+.case7-row1-item3-random2-acc4::after{
     position: absolute;
     font-size: 20px;
     /* content: "Anh ấy"; */
@@ -513,8 +513,8 @@
 
 
 
-  /*.case6-row1-item3-random2-5*/
-  .case6-row1-item3-random2-5 {
+  /*.case7-row1-item3-random2-5*/
+  .case7-row1-item3-random2-5 {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -522,7 +522,7 @@
     transform: translateX(400%);
     z-index: 11;
 }
-.case6-row1-item3-random2-5::after{
+.case7-row1-item3-random2-5::after{
     /* content: "Her"; */
     font-size: 25px;
     font-weight: 800;
@@ -530,7 +530,7 @@
     top: 50px;
     left: 15px;
 }
-.case6-row1-item3-random2-acc5::after{
+.case7-row1-item3-random2-acc5::after{
     position: absolute;
     font-size: 20px;
     /* content: "Cô ấy"; */
@@ -544,16 +544,16 @@
 
 
 
-/*--------------------------------case6-row1-item4-ramdom2-------------*/
-.case6-row1-item4-random2{
+/*--------------------------------case7-row1-item4-ramdom2-------------*/
+.case7-row1-item4-random2{
     position: relative;
     display: flex;
     width: 100%;
     height: 100%;
     transition: 0.5s ease all;
 }
-/*.case6-row1-item4-random2-1*/
-.case6-row1-item4-random2-1 {
+/*.case7-row1-item4-random2-1*/
+.case7-row1-item4-random2-1 {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -561,7 +561,7 @@
     z-index: 11;
     
 }
-.case6-row1-item4-random2-1::after{
+.case7-row1-item4-random2-1::after{
     /* content: "Man"; */
     font-size: 25px;
     font-weight: 800;
@@ -569,7 +569,7 @@
     top: 50px;
     left: 15px;
 }
-.case6-row1-item4-random2-acc1::after{
+.case7-row1-item4-random2-acc1::after{
     position: absolute;
     font-size: 20px;
     top: 60px;
@@ -582,8 +582,8 @@
 
 
 
-/*.case6-row1-ite4-random2-2*/
-.case6-row1-item4-random2-2 {
+/*.case7-row1-ite4-random2-2*/
+.case7-row1-item4-random2-2 {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -591,7 +591,7 @@
     transform: translateX(100%);
     z-index: 11;
 }
-.case6-row1-item4-random2-2::after{
+.case7-row1-item4-random2-2::after{
     /* content: "Woman"; */
     font-size: 25px;
     font-weight: 800;
@@ -599,15 +599,15 @@
     top: 50px;
     left: 15px;
 }
-.case6-row1-item4-random2-acc2::after{
+.case7-row1-item4-random2-acc2::after{
     position: absolute;
     font-size: 20px;
     /* content: "Người Phụ Nữ"; */
     color: red;
     z-index: 11;
   }
-/*.case6-row1-item4-random2-3*/
-.case6-row1-item4-random2-3 {
+/*.case7-row1-item4-random2-3*/
+.case7-row1-item4-random2-3 {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -615,7 +615,7 @@
     transform: translateX(200%);
     z-index: 11;
 }
-.case6-row1-item4-random2-3::after{
+.case7-row1-item4-random2-3::after{
     /* content: "Men"; */
     font-size: 25px;
     font-weight: 800;
@@ -623,7 +623,7 @@
     top: 50px;
     left: 20px;
 }
-.case6-row1-item4-random2-acc3::after{
+.case7-row1-item4-random2-acc3::after{
     position: absolute;
     font-size: 20px;
     /* content: "Những người đàn ông"; */
@@ -632,8 +632,8 @@
   }
 
 
-  /*.case6-row1-item4-random2-4*/
-.case6-row1-item4-random2-4 {
+  /*.case7-row1-item4-random2-4*/
+.case7-row1-item4-random2-4 {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -641,7 +641,7 @@
     transform: translateX(300%);
     z-index: 11;
 }
-.case6-row1-item4-random2-4::after{
+.case7-row1-item4-random2-4::after{
     /* content: "His"; */
     font-size: 25px;
     font-weight: 800;
@@ -650,7 +650,7 @@
     left: 15px;
     
 }
-.case6-row1-item4-random2-acc4::after{
+.case7-row1-item4-random2-acc4::after{
     position: absolute;
     font-size: 20px;
     /* content: "Anh ấy"; */
@@ -660,8 +660,8 @@
 
 
 
-  /*.case6-row1-item4-random2-5*/
-  .case6-row1-item4-random2-5 {
+  /*.case7-row1-item4-random2-5*/
+  .case7-row1-item4-random2-5 {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -669,7 +669,7 @@
     transform: translateX(400%);
     z-index: 11;
 }
-.case6-row1-item4-random2-5::after{
+.case7-row1-item4-random2-5::after{
     /* content: "Her"; */
     font-size: 25px;
     font-weight: 800;
@@ -677,7 +677,7 @@
     top: 50px;
     left: 15px;
 }
-.case6-row1-item4-random2-acc5::after{
+.case7-row1-item4-random2-acc5::after{
     position: absolute;
     font-size: 20px;
     /* content: "Cô ấy"; */
@@ -686,164 +686,164 @@
   }
 
 
-/*note vocabulary case6-row1-item2-radom2 */
+/*note vocabulary case7-row1-item2-radom2 */
 /*1*/
-.case6-row1-item2-random2-1::after{
-    content: "appointment";
+.case7-row1-item2-random2-1::after{
+    content: "holiday";
 }
-.case6-row1-item2-random2-acc1::after{
-    content: "cuộc hẹn";
+.case7-row1-item2-random2-acc1::after{
+    content: "kỳ nghỉ";
 }
 /*2*/
-.case6-row1-item2-random2-2::after{
-    content: "necessary";
+.case7-row1-item2-random2-2::after{
+    content: "dry-cleaner's";
 }
-.case6-row1-item2-random2-acc2::after{
-    content: "cần thiết";
+.case7-row1-item2-random2-acc2::after{
+    content: "tiệm giặc khô";
 }
 /*3*/
-.case6-row1-item2-random2-3::after{
-    content: "plan";
+.case7-row1-item2-random2-3::after{
+    content: "bussiness";
 }
-.case6-row1-item2-random2-acc3::after{
-    content: "lập kế hoạch";
+.case7-row1-item2-random2-acc3::after{
+    content: "việc kinh doanh, việc buôn";
 }
 /*4*/
-.case6-row1-item2-random2-4::after{
-    content: "project";
+.case7-row1-item2-random2-4::after{
+    content: "took off";
 }
-.case6-row1-item2-random2-acc4::after{
-    content: "dự án";
+.case7-row1-item2-random2-acc4::after{
+    content: "cất cánh";
 }
 /*5*/
-.case6-row1-item2-random2-5::after{
-    content: "locate";
+.case7-row1-item2-random2-5::after{
+    content: "sold out";
 }
-.case6-row1-item2-random2-acc5::after{
-    content: "tọa lạc, nằm";
+.case7-row1-item2-random2-acc5::after{
+    content: "bán hết";
 }  
 
 
-/*note vocabulary case6-row1-item1-radom1 */
+/*note vocabulary case7-row1-item1-radom1 */
 /*1*/
-.case6-row1-item1-random2-1::after{
-    content: "presentation";
+.case7-row1-item1-random2-1::after{
+    content: "mechanical";
 }
-.case6-row1-item1-random2-acc1::after{
-    content: "bài thuyết trình";
+.case7-row1-item1-random2-acc1::after{
+    content: "cơ khí (thuộc về máy móc, cơ hoc)";
 }
 /*2*/
-.case6-row1-item1-random2-2::after{
-    content: "glove";
+.case7-row1-item1-random2-2::after{
+    content: "direction";
 }
-.case6-row1-item1-random2-acc2::after{
-    content: "găng tay";
+.case7-row1-item1-random2-acc2::after{
+    content: "chỉ dẫn, phương hướng";
 }
 /*3*/
-.case6-row1-item1-random2-3::after{
-    content: "plant";
+.case7-row1-item1-random2-3::after{
+    content: "promotion";
 }
-.case6-row1-item1-random2-acc3::after{
-    content: "nhà máy, cây trồng";
+.case7-row1-item1-random2-acc3::after{
+    content: "thăng chức, khuyến mãi";
 }
 /*4*/
-.case6-row1-item1-random2-4::after{
-    content: "afraid";
+.case7-row1-item1-random2-4::after{
+    content: "different";
 }
-.case6-row1-item1-random2-acc4::after{
-    content: "sợ, e rằng";
+.case7-row1-item1-random2-acc4::after{
+    content: "khác nhau";
 }
 /*5*/
-.case6-row1-item1-random2-5::after{
-    content: "keep in touch";
+.case7-row1-item1-random2-5::after{
+    content: "belongings";
 }
-.case6-row1-item1-random2-acc5::after{
-    content: "giữ liên lạc";
+.case7-row1-item1-random2-acc5::after{
+    content: "đồ dùng cá nhân";
 }
 
 
 
-/*note vocabulary case6-row1-item3-radom2 */
+/*note vocabulary case7-row1-item3-radom2 */
 /*1*/
-.case6-row1-item3-random2-1::after{
-    content: "fairly";
+.case7-row1-item3-random2-1::after{
+    content: "inventory";
 }
-.case6-row1-item3-random2-acc1::after{
-    content: "khá";
+.case7-row1-item3-random2-acc1::after{
+    content: "kiểm kê";
 }
 /*2*/
-.case6-row1-item3-random2-2::after{
-    content: "lend";
+.case7-row1-item3-random2-2::after{
+    content: "office supplies";
 }
-.case6-row1-item3-random2-acc2::after{
-    content: "cho...mượn";
+.case7-row1-item3-random2-acc2::after{
+    content: "văn phòng phẩm";
 }
 /*3*/
-.case6-row1-item3-random2-3::after{
-    content: "identify";
+.case7-row1-item3-random2-3::after{
+    content: "outstanding";
 }
-.case6-row1-item3-random2-acc3::after{
-    content: "nhận dạng";
+.case7-row1-item3-random2-acc3::after{
+    content: "nổi bật";
 }
 /*4*/
-.case6-row1-item3-random2-4::after{
-    content: "complaint";
+.case7-row1-item3-random2-4::after{
+    content: "implement";
 }
-.case6-row1-item3-random2-acc4::after{
-    content: "lời than phiền";
+.case7-row1-item3-random2-acc4::after{
+    content: "thực hiện";
 }
 /*5*/
-.case6-row1-item3-random2-5::after{
-    content: "purpose";
+.case7-row1-item3-random2-5::after{
+    content: "poll";
 }
-.case6-row1-item3-random2-acc5::after{
-    content: "mục đích";
+.case7-row1-item3-random2-acc5::after{
+    content: "cuộc bầu cử";
 }
 
 
 
-/*note vocabulary case6-row1-item4-random2 */
+/*note vocabulary case7-row1-item4-random2 */
 /*1*/
-.case6-row1-item4-random2-1::after{
-    content: "resolve";
+.case7-row1-item4-random2-1::after{
+    content: "executive";
 }
-.case6-row1-item4-random2-acc1::after{
-    content: "giải quyết, xử lí";
+.case7-row1-item4-random2-acc1::after{
+    content: "nhân viên cấp cao";
 }
 /*2*/
-.case6-row1-item4-random2-2::after{
-    content: "reservation";
+.case7-row1-item4-random2-2::after{
+    content: "influence";
 }
-.case6-row1-item4-random2-acc2::after{
-    content: "đặt chỗ trước";
+.case7-row1-item4-random2-acc2::after{
+    content: "ảnh hưởng, tác động";
 }
 /*3*/
-.case6-row1-item4-random2-3::after{
-    content: "in advance";
+.case7-row1-item4-random2-3::after{
+    content: "remind";
 }
-.case6-row1-item4-random2-acc3::after{
-    content: "trước";
+.case7-row1-item4-random2-acc3::after{
+    content: "nhắc nhở";
 }
 /*4*/
-.case6-row1-item4-random2-4::after{
-    content: "construction";
+.case7-row1-item4-random2-4::after{
+    content: "aim";
 }
-.case6-row1-item4-random2-acc4::after{
-    content: "việc xây dựng";
+.case7-row1-item4-random2-acc4::after{
+    content: "nhằm mục đích";
 }
 /*5*/
-.case6-row1-item4-random2-5::after{
-    content: "experience";
+.case7-row1-item4-random2-5::after{
+    content: "solution";
 }
-.case6-row1-item4-random2-acc5::after{
-    content: "kinh nghiệm, trãi nghiệm";
+.case7-row1-item4-random2-acc5::after{
+    content: "giải pháp";
 }
 
 
 
 /*-----------------------------------------------------row2----------------------------------------*/
-/*---------------------------------------------case6-row1-item1-rwamdom1----------------------------*/
-.case6-row2-item1-random2{
+/*---------------------------------------------case7-row1-item1-rwamdom1----------------------------*/
+.case7-row2-item1-random2{
     position: relative;
     display: flex;
     width: 100%;
@@ -854,14 +854,14 @@
 
 
 
-/*.case6-row2-item1-random2-1*/
-.case6-row2-item1-random2-1 {
+/*.case7-row2-item1-random2-1*/
+.case7-row2-item1-random2-1 {
     position: absolute;
     width: 100%;
     height: 100%;
     background: #ddd;    
 }
-.case6-row2-item1-random2-1::after{
+.case7-row2-item1-random2-1::after{
     /* content: "Man"; */
     font-size: 25px;
     font-weight: 800;
@@ -869,7 +869,7 @@
     top: 50px;
     left: 10px;
 }
-.case6-row2-item1-random2-acc1::after{
+.case7-row2-item1-random2-acc1::after{
     position: absolute;
     font-size: 20px;
     top: 60px;
@@ -879,15 +879,15 @@
     text-align: center;
   }
 
-  /*.case6-row2-item1-random2-2*/
-.case6-row2-item1-random2-2 {
+  /*.case7-row2-item1-random2-2*/
+.case7-row2-item1-random2-2 {
     position: absolute;
     width: 100%;
     height: 100%;
     background: #ddd;
     transform: translateX(100%);
 }
-.case6-row2-item1-random2-2::after{
+.case7-row2-item1-random2-2::after{
     /* content: "Woman"; */
     font-size: 25px;
     font-weight: 800;
@@ -895,21 +895,21 @@
     top: 50px;
     left: 15px;
 }
-.case6-row2-item1-random2-acc2::after{
+.case7-row2-item1-random2-acc2::after{
     position: absolute;
     font-size: 20px;
     /* content: "Người Phụ Nữ"; */
     color: red;
   }
-/*.case6-row2-item1-random2-3*/
-.case6-row2-item1-random2-3 {
+/*.case7-row2-item1-random2-3*/
+.case7-row2-item1-random2-3 {
     position: absolute;
     width: 100%;
     height: 100%;
     background: #ddd;
     transform: translateX(200%);
 }
-.case6-row2-item1-random2-3::after{
+.case7-row2-item1-random2-3::after{
     /* content: "Men"; */
     font-size: 25px;
     font-weight: 800;
@@ -917,7 +917,7 @@
     top: 50px;
     left: 15px;
 }
-.case6-row2-item1-random2-acc3::after{
+.case7-row2-item1-random2-acc3::after{
     position: absolute;
     font-size: 20px;
     /* content: "Những người đàn ông"; */
@@ -925,15 +925,15 @@
   }
 
 
-  /*.case6-row2-item1-random2-3*/
-.case6-row2-item1-random2-4 {
+  /*.case7-row2-item1-random2-3*/
+.case7-row2-item1-random2-4 {
     position: absolute;
     width: 100%;
     height: 100%;
     background: #ddd;
     transform: translateX(300%);
 }
-.case6-row2-item1-random2-4::after{
+.case7-row2-item1-random2-4::after{
     /* content: "His"; */
     font-size: 25px;
     font-weight: 800;
@@ -941,22 +941,22 @@
     top: 50px;
     left: 15px;
 }
-.case6-row2-item1-random2-acc4::after{
+.case7-row2-item1-random2-acc4::after{
     position: absolute;
     font-size: 20px;
     /* content: "Anh ấy"; */
     color: red;
   }
 
-  /*.case6-row2-item1-random2-5*/
-  .case6-row2-item1-random2-5 {
+  /*.case7-row2-item1-random2-5*/
+  .case7-row2-item1-random2-5 {
     position: absolute;
     width: 100%;
     height: 100%;
     background: #ddd;
     transform: translateX(400%);
 }
-.case6-row2-item1-random2-5::after{
+.case7-row2-item1-random2-5::after{
     /* content: "Her"; */
     font-size: 25px;
     font-weight: 800;
@@ -964,7 +964,7 @@
     top: 50px;
     left: 15px;
 }
-.case6-row2-item1-random2-acc5::after{
+.case7-row2-item1-random2-acc5::after{
     position: absolute;
     font-size: 20px;
     /* content: "Cô ấy"; */
@@ -980,16 +980,16 @@
 
 
 
-/*--------------------------------case6-row2-item2-ramdom2-------------*/
-.case6-row2-item2-random2{
+/*--------------------------------case7-row2-item2-ramdom2-------------*/
+.case7-row2-item2-random2{
     position: relative;
     display: flex;
     width: 100%;
     height: 100%;
     transition: 0.5s ease all;
 }
-/*.case6-row2-item2-random2-1*/
-.case6-row2-item2-random2-1 {
+/*.case7-row2-item2-random2-1*/
+.case7-row2-item2-random2-1 {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -997,7 +997,7 @@
     z-index: 10;
     
 }
-.case6-row2-item2-random2-1::after{
+.case7-row2-item2-random2-1::after{
     /* content: "Man"; */
     font-size: 25px;
     font-weight: 800;
@@ -1005,21 +1005,19 @@
     top: 50px;
     left: 15px;
 }
-.case6-row2-item2-random2-acc1::after{
+.case7-row2-item2-random2-acc1::after{
     position: absolute;
     font-size: 20px;
     /* content: "Đàn Ông"; */
     color: red;
     text-align: center;
     z-index: 10;
-    left: 0;
-    top: 35%;
   }
 
 
 
-/*.case6-row2-item2-random2-2*/
-.case6-row2-item2-random2-2 {
+/*.case7-row2-item2-random2-2*/
+.case7-row2-item2-random2-2 {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -1027,7 +1025,7 @@
     transform: translateX(100%);
     z-index: 10;
 }
-.case6-row2-item2-random2-2::after{
+.case7-row2-item2-random2-2::after{
     /* content: "Woman"; */
     font-size: 25px;
     font-weight: 800;
@@ -1035,15 +1033,15 @@
     top: 50px;
     left: 15px;
 }
-.case6-row2-item2-random2-acc2::after{
+.case7-row2-item2-random2-acc2::after{
     position: absolute;
     font-size: 20px;
     /* content: "Người Phụ Nữ"; */
     color: red;
     z-index: 10;
   }
-/*.case6-row2-item1-random2-3*/
-.case6-row2-item2-random2-3 {
+/*.case7-row2-item1-random2-3*/
+.case7-row2-item2-random2-3 {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -1051,7 +1049,7 @@
     transform: translateX(200%);
     z-index: 10;
 }
-.case6-row2-item2-random2-3::after{
+.case7-row2-item2-random2-3::after{
     /* content: "Men"; */
     font-size: 25px;
     font-weight: 800;
@@ -1059,7 +1057,7 @@
     top: 50px;
     left: 15px;
 }
-.case6-row2-item2-random2-acc3::after{
+.case7-row2-item2-random2-acc3::after{
     position: absolute;
     font-size: 20px;
     /* content: "Những người đàn ông"; */
@@ -1068,8 +1066,8 @@
   }
 
 
-  /*.case6-row2-item2-random2-4*/
-.case6-row2-item2-random2-4 {
+  /*.case7-row2-item2-random2-4*/
+.case7-row2-item2-random2-4 {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -1077,7 +1075,7 @@
     transform: translateX(300%);
     z-index: 10;
 }
-.case6-row2-item2-random2-4::after{
+.case7-row2-item2-random2-4::after{
     /* content: "His"; */
     font-size: 25px;
     font-weight: 800;
@@ -1086,7 +1084,7 @@
     left: 15px;
     
 }
-.case6-row2-item2-random2-acc4::after{
+.case7-row2-item2-random2-acc4::after{
     position: absolute;
     font-size: 20px;
     /* content: "Anh ấy"; */
@@ -1096,8 +1094,8 @@
 
 
 
-  /*.case6-row2-item2-random2-5*/
-  .case6-row2-item2-random2-5 {
+  /*.case7-row2-item2-random2-5*/
+  .case7-row2-item2-random2-5 {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -1105,7 +1103,7 @@
     transform: translateX(400%);
     z-index: 10;
 }
-.case6-row2-item2-random2-5::after{
+.case7-row2-item2-random2-5::after{
     /* content: "Her"; */
     font-size: 25px;
     font-weight: 800;
@@ -1113,7 +1111,7 @@
     top: 50px;
     left: 15px;
 }
-.case6-row2-item2-random2-acc5::after{
+.case7-row2-item2-random2-acc5::after{
     position: absolute;
     font-size: 20px;
     /* content: "Cô ấy"; */
@@ -1126,16 +1124,16 @@
 
 
 
-/*--------------------------------case6-row1-item3-ramdom2-------------*/
-.case6-row2-item3-random2{
+/*--------------------------------case7-row1-item3-ramdom2-------------*/
+.case7-row2-item3-random2{
     position: relative;
     display: flex;
     width: 100%;
     height: 100%;
     transition: 0.5s ease all;
 }
-/*.case6-row2-item3-random2-1*/
-.case6-row2-item3-random2-1 {
+/*.case7-row2-item3-random2-1*/
+.case7-row2-item3-random2-1 {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -1143,7 +1141,7 @@
     z-index: 11;
     
 }
-.case6-row2-item3-random2-1::after{
+.case7-row2-item3-random2-1::after{
     /* content: "Man"; */
     font-size: 25px;
     font-weight: 800;
@@ -1151,7 +1149,7 @@
     top: 50px;
     left: 15px;
 }
-.case6-row2-item3-random2-acc1::after{
+.case7-row2-item3-random2-acc1::after{
     position: absolute;
     font-size: 20px;
     top: 60px;
@@ -1164,8 +1162,8 @@
 
 
 
-/*.case6-row2-item3-random2-2*/
-.case6-row2-item3-random2-2 {
+/*.case7-row2-item3-random2-2*/
+.case7-row2-item3-random2-2 {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -1173,7 +1171,7 @@
     transform: translateX(100%);
     z-index: 11;
 }
-.case6-row2-item3-random2-2::after{
+.case7-row2-item3-random2-2::after{
     /* content: "Woman"; */
     font-size: 25px;
     font-weight: 800;
@@ -1181,15 +1179,15 @@
     top: 50px;
     left: 15px;
 }
-.case6-row2-item3-random2-acc2::after{
+.case7-row2-item3-random2-acc2::after{
     position: absolute;
     font-size: 20px;
     /* content: "Người Phụ Nữ"; */
     color: red;
     z-index: 11;
   }
-/*.case6-row2-item1-random2-3*/
-.case6-row2-item3-random2-3 {
+/*.case7-row2-item1-random2-3*/
+.case7-row2-item3-random2-3 {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -1197,7 +1195,7 @@
     transform: translateX(200%);
     z-index: 11;
 }
-.case6-row2-item3-random2-3::after{
+.case7-row2-item3-random2-3::after{
     /* content: "Men"; */
     font-size: 25px;
     font-weight: 800;
@@ -1205,7 +1203,7 @@
     top: 50px;
     left: 20px;
 }
-.case6-row2-item3-random2-acc3::after{
+.case7-row2-item3-random2-acc3::after{
     position: absolute;
     font-size: 20px;
     /* content: "Những người đàn ông"; */
@@ -1214,8 +1212,8 @@
   }
 
 
-  /*.case6-row2-item3-random2-4*/
-.case6-row2-item3-random2-4 {
+  /*.case7-row2-item3-random2-4*/
+.case7-row2-item3-random2-4 {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -1223,7 +1221,7 @@
     transform: translateX(300%);
     z-index: 11;
 }
-.case6-row2-item3-random2-4::after{
+.case7-row2-item3-random2-4::after{
     /* content: "His"; */
     font-size: 25px;
     font-weight: 800;
@@ -1232,7 +1230,7 @@
     left: 15px;
     
 }
-.case6-row2-item3-random2-acc4::after{
+.case7-row2-item3-random2-acc4::after{
     position: absolute;
     font-size: 20px;
     /* content: "Anh ấy"; */
@@ -1242,8 +1240,8 @@
 
 
 
-  /*.case6-row2-item3-random2-5*/
-  .case6-row2-item3-random2-5 {
+  /*.case7-row2-item3-random2-5*/
+  .case7-row2-item3-random2-5 {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -1251,7 +1249,7 @@
     transform: translateX(400%);
     z-index: 11;
 }
-.case6-row2-item3-random2-5::after{
+.case7-row2-item3-random2-5::after{
     /* content: "Her"; */
     font-size: 25px;
     font-weight: 800;
@@ -1259,7 +1257,7 @@
     top: 50px;
     left: 15px;
 }
-.case6-row2-item3-random2-acc5::after{
+.case7-row2-item3-random2-acc5::after{
     position: absolute;
     font-size: 20px;
     /* content: "Cô ấy"; */
@@ -1272,16 +1270,16 @@
 
 
 
-/*--------------------------------case6-row2-item4-ramdom2-------------*/
-.case6-row2-item4-random2{
+/*--------------------------------case7-row2-item4-ramdom2-------------*/
+.case7-row2-item4-random2{
     position: relative;
     display: flex;
     width: 100%;
     height: 100%;
     transition: 0.5s ease all;
 }
-/*.case6-row2-item4-random2-1*/
-.case6-row2-item4-random2-1 {
+/*.case7-row2-item4-random2-1*/
+.case7-row2-item4-random2-1 {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -1289,7 +1287,7 @@
     z-index: 11;
     
 }
-.case6-row2-item4-random2-1::after{
+.case7-row2-item4-random2-1::after{
     /* content: "Man"; */
     font-size: 25px;
     font-weight: 800;
@@ -1297,7 +1295,7 @@
     top: 50px;
     left: 15px;
 }
-.case6-row2-item4-random2-acc1::after{
+.case7-row2-item4-random2-acc1::after{
     position: absolute;
     font-size: 20px;
     top: 60px;
@@ -1310,8 +1308,8 @@
 
 
 
-/*.case6-row2-ite4-random2-2*/
-.case6-row2-item4-random2-2 {
+/*.case7-row2-ite4-random2-2*/
+.case7-row2-item4-random2-2 {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -1319,7 +1317,7 @@
     transform: translateX(100%);
     z-index: 11;
 }
-.case6-row2-item4-random2-2::after{
+.case7-row2-item4-random2-2::after{
     /* content: "Woman"; */
     font-size: 25px;
     font-weight: 800;
@@ -1327,15 +1325,15 @@
     top: 50px;
     left: 15px;
 }
-.case6-row2-item4-random2-acc2::after{
+.case7-row2-item4-random2-acc2::after{
     position: absolute;
     font-size: 20px;
     /* content: "Người Phụ Nữ"; */
     color: red;
     z-index: 11;
   }
-/*.case6-row2-item4-random2-3*/
-.case6-row2-item4-random2-3 {
+/*.case7-row2-item4-random2-3*/
+.case7-row2-item4-random2-3 {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -1343,7 +1341,7 @@
     transform: translateX(200%);
     z-index: 11;
 }
-.case6-row2-item4-random2-3::after{
+.case7-row2-item4-random2-3::after{
     /* content: "Men"; */
     font-size: 25px;
     font-weight: 800;
@@ -1351,7 +1349,7 @@
     top: 50px;
     left: 20px;
 }
-.case6-row2-item4-random2-acc3::after{
+.case7-row2-item4-random2-acc3::after{
     position: absolute;
     font-size: 20px;
     /* content: "Những người đàn ông"; */
@@ -1360,8 +1358,8 @@
   }
 
 
-  /*.case6-row2-item4-random2-4*/
-.case6-row2-item4-random2-4 {
+  /*.case7-row2-item4-random2-4*/
+.case7-row2-item4-random2-4 {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -1369,7 +1367,7 @@
     transform: translateX(300%);
     z-index: 11;
 }
-.case6-row2-item4-random2-4::after{
+.case7-row2-item4-random2-4::after{
     /* content: "His"; */
     font-size: 20px;
     font-weight: 800;
@@ -1378,7 +1376,7 @@
     left: 15px;
     
 }
-.case6-row2-item4-random2-acc4::after{
+.case7-row2-item4-random2-acc4::after{
     position: absolute;
     font-size: 20px;
     /* content: "Anh ấy"; */
@@ -1388,8 +1386,8 @@
 
 
 
-  /*.case6-row2-item4-random2-5*/
-  .case6-row2-item4-random2-5 {
+  /*.case7-row2-item4-random2-5*/
+  .case7-row2-item4-random2-5 {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -1397,7 +1395,7 @@
     transform: translateX(400%);
     z-index: 11;
 }
-.case6-row2-item4-random2-5::after{
+.case7-row2-item4-random2-5::after{
     /* content: "Her"; */
     font-size: 25px;
     font-weight: 800;
@@ -1405,7 +1403,7 @@
     top: 50px;
     left: 15px;
 }
-.case6-row2-item4-random2-acc5::after{
+.case7-row2-item4-random2-acc5::after{
     position: absolute;
     font-size: 20px;
     /* content: "Cô ấy"; */
@@ -1413,163 +1411,163 @@
     z-index: 11;
   }
 
-/*note vocabulary case6-row2-item1-radom1 */
+/*note vocabulary case7-row2-item1-radom1 */
 /*1*/
-.case6-row2-item1-random2-1::after{
-    content: "representative";
+.case7-row2-item1-random2-1::after{
+    content: "building design";
 }
-.case6-row2-item1-random2-acc1::after{
-    content: "người đại diện";
+.case7-row2-item1-random2-acc1::after{
+    content: "thiết kế tòa nhà";
 }
 /*2*/
-.case6-row2-item1-random2-2::after{
-    content: "convenient";
+.case7-row2-item1-random2-2::after{
+    content: "audience";
 }
-.case6-row2-item1-random2-acc2::after{
-    content: "thuận tiện, tiện lợi";
+.case7-row2-item1-random2-acc2::after{
+    content: "khán giả";
 }
 /*3*/
-.case6-row2-item1-random2-3::after{
-    content: "shuttle";
+.case7-row2-item1-random2-3::after{
+    content: "reservation";
 }
-.case6-row2-item1-random2-acc3::after{
-    content: "trung chuyển";
+.case7-row2-item1-random2-acc3::after{
+    content: "sự đặt trước";
 }
 /*4*/
-.case6-row2-item1-random2-4::after{
-    content: "performance";
+.case7-row2-item1-random2-4::after{
+    content: "supply request";
 }
-.case6-row2-item1-random2-acc4::after{
-    content: "trình diễn, hiệu suất";
+.case7-row2-item1-random2-acc4::after{
+    content: "yêu cầu cung cấp đồ dùng";
 }
 /*5*/
-.case6-row2-item1-random2-5::after{
-    content: "sign up";
+.case7-row2-item1-random2-5::after{
+    content: "contract of employment";
 }
-.case6-row2-item1-random2-acc5::after{
-    content: "đăng ký, ghi danh";
+.case7-row2-item1-random2-acc5::after{
+    content: "hợp đồng làm việc";
 }
 
 
 
 
-/*note vocabulary case6-row2-item2-radom2 */
+/*note vocabulary case7-row2-item2-radom2 */
 /*1*/
-.case6-row2-item2-random2-1::after{
-    content: "attendance";
+.case7-row2-item2-random2-1::after{
+    content: "probably";
 }
-.case6-row2-item2-random2-acc1::after{
-    content: "sự tham gia, tham dự";
+.case7-row2-item2-random2-acc1::after{
+    content: "hầu như, có thể";
 }
 /*2*/
-.case6-row2-item2-random2-2::after{
-    content: "stage";
+.case7-row2-item2-random2-2::after{
+    content: "brochure";
 }
-.case6-row2-item2-random2-acc2::after{
-    content: "sân khấu, giai đoạn";
+.case7-row2-item2-random2-acc2::after{
+    content: "sách quảng cáo";
 }
 /*3*/
-.case6-row2-item2-random2-3::after{
-    content: "postpone";
+.case7-row2-item2-random2-3::after{
+    content: "shipment";
 }
-.case6-row2-item2-random2-acc3::after{
-    content: "trì hoãn";
+.case7-row2-item2-random2-acc3::after{
+    content: "hàng gửi, việc gửi hàng";
 }
 /*4*/
-.case6-row2-item2-random2-4::after{
-    content: "deposit";
+.case7-row2-item2-random2-4::after{
+    content: "misplace";
 }
-.case6-row2-item2-random2-acc4::after{
-    content: "tiền đặc cọc";
+.case7-row2-item2-random2-acc4::after{
+    content: "để không đúng chỗ, lạc mất";
 }
 /*5*/
-.case6-row2-item2-random2-5::after{
-    content: "leave + N(đồ vật)";
+.case7-row2-item2-random2-5::after{
+    content: "coordinator";
 }
-.case6-row2-item2-random2-acc5::after{
-    content: "để quên";
+.case7-row2-item2-random2-acc5::after{
+    content: "nhân viên điều phối";
 }
 
 
-/*note vocabulary case6-row2-item3-radom2 */
+/*note vocabulary case7-row2-item3-radom2 */
 /*1*/
-.case6-row2-item3-random2-1::after{
-    content: "leave + N(người)";
+.case7-row2-item3-random2-1::after{
+    content: "sculpture";
 }
-.case6-row2-item3-random2-acc1::after{
-    content: "rời đi";
+.case7-row2-item3-random2-acc1::after{
+    content: "tác phẩm điêu khắc";
 }
 /*2*/
-.case6-row2-item3-random2-2::after{
-    content: "way";
+.case7-row2-item3-random2-2::after{
+    content: "conclude";
 }
-.case6-row2-item3-random2-acc2::after{
-    content: "cách, phương hướng";
+.case7-row2-item3-random2-acc2::after{
+    content: "kết thúc, kết luận";
 }
 /*3*/
-.case6-row2-item3-random2-3::after{
-    content: "quickest";
+.case7-row2-item3-random2-3::after{
+    content: "prevent";
 }
-.case6-row2-item3-random2-acc3::after{
-    content: "nhanh nhất";
+.case7-row2-item3-random2-acc3::after{
+    content: "ngăn chặn, ngăn cản";
 }
 /*4*/
-.case6-row2-item3-random2-4::after{
-    content: "airmail";
+.case7-row2-item3-random2-4::after{
+    content: "subscription";
 }
-.case6-row2-item3-random2-acc4::after{
-    content: "gửi thư hỏa tốc, gửi thư hàng không";
+.case7-row2-item3-random2-acc4::after{
+    content: "sự đặt mua dài hạn";
 }
 /*5*/
-.case6-row2-item3-random2-5::after{
-    content: "express";
+.case7-row2-item3-random2-5::after{
+    content: "ahead of";
 }
-.case6-row2-item3-random2-acc5::after{
-    content: "tốc hành(vận chuyển tốc hành)";
+.case7-row2-item3-random2-acc5::after{
+    content: "trước";
 }
 
-/*note vocabulary case6-row2-item4-random2 */
+/*note vocabulary case7-row2-item4-random2 */
 /*1*/
-.case6-row2-item4-random2-1::after{
-    content: "take + time";
+.case7-row2-item4-random2-1::after{
+    content: "nearby";
 }
-.case6-row2-item4-random2-acc1::after{
-    content: "mất ...";
+.case7-row2-item4-random2-acc1::after{
+    content: "ở vị trí gần";
 }
 /*2*/
-.case6-row2-item4-random2-2::after{
-    content: "session";
+.case7-row2-item4-random2-2::after{
+    content: "close to";
 }
-.case6-row2-item4-random2-acc2::after{
-    content: "buổi họp";
+.case7-row2-item4-random2-acc2::after{
+    content: "gần (về thời gian, vị trí)";
 }
 /*3*/
-.case6-row2-item4-random2-3::after{
-    content: "the last time";
+.case7-row2-item4-random2-3::after{
+    content: "station";
 }
-.case6-row2-item4-random2-acc3::after{
-    content: "lần cuối cùng";
+.case7-row2-item4-random2-acc3::after{
+    content: "trạm, ga tàu";
 }
 /*4*/
-.case6-row2-item4-random2-4::after{
-    content: "acknowledge";
+.case7-row2-item4-random2-4::after{
+    content: "appreciate";
 }
-.case6-row2-item4-random2-acc4::after{
-    content: "thừa nhận, công nhận";
+.case7-row2-item4-random2-acc4::after{
+    content: "đánh giá cao, tôi cảm kích";
 }
 /*5*/
-.case6-row2-item4-random2-5::after{
-    content: "item";
+.case7-row2-item4-random2-5::after{
+    content: "exhibit";
 }
-.case6-row2-item4-random2-acc5::after{
-    content: "món đồ, món hàng";
+.case7-row2-item4-random2-acc5::after{
+    content: "triễn lãm, trưng bày";
 }
 
 
 
 /*-----------------------------------------------------row3----------------------------------------*/
-/*---------------------------------------------case6-row3-item1-rwamdom1----------------------------*/
-.case6-row3-item1-random2{
+/*---------------------------------------------case7-row3-item1-rwamdom1----------------------------*/
+.case7-row3-item1-random2{
     position: relative;
     display: flex;
     width: 100%;
@@ -1579,14 +1577,14 @@
 }
 
 
-/*.case6-row3-item1-random2-1*/
-.case6-row3-item1-random2-1 {
+/*.case7-row3-item1-random2-1*/
+.case7-row3-item1-random2-1 {
     position: absolute;
     width: 100%;
     height: 100%;
     background: #ddd;    
 }
-.case6-row3-item1-random2-1::after{
+.case7-row3-item1-random2-1::after{
     /* content: "Man"; */
     font-size: 25px;
     font-weight: 800;
@@ -1594,7 +1592,7 @@
     top: 50px;
     left: 10px;
 }
-.case6-row3-item1-random2-acc1::after{
+.case7-row3-item1-random2-acc1::after{
     position: absolute;
     font-size: 20px;
     top: 60px;
@@ -1604,15 +1602,15 @@
     text-align: center;
   }
 
-  /*.case6-row3-item1-random2-2*/
-.case6-row3-item1-random2-2 {
+  /*.case7-row3-item1-random2-2*/
+.case7-row3-item1-random2-2 {
     position: absolute;
     width: 100%;
     height: 100%;
     background: #ddd;
     transform: translateX(100%);
 }
-.case6-row3-item1-random2-2::after{
+.case7-row3-item1-random2-2::after{
     /* content: "Woman"; */
     font-size: 25px;
     font-weight: 800;
@@ -1620,21 +1618,21 @@
     top: 50px;
     left: 15px;
 }
-.case6-row3-item1-random2-acc2::after{
+.case7-row3-item1-random2-acc2::after{
     position: absolute;
     font-size: 20px;
     /* content: "Người Phụ Nữ"; */
     color: red;
   }
-/*.case6-row3-item1-random2-3*/
-.case6-row3-item1-random2-3 {
+/*.case7-row3-item1-random2-3*/
+.case7-row3-item1-random2-3 {
     position: absolute;
     width: 100%;
     height: 100%;
     background: #ddd;
     transform: translateX(200%);
 }
-.case6-row3-item1-random2-3::after{
+.case7-row3-item1-random2-3::after{
     /* content: "Men"; */
     font-size: 25px;
     font-weight: 800;
@@ -1642,7 +1640,7 @@
     top: 50px;
     left: 15px;
 }
-.case6-row3-item1-random2-acc3::after{
+.case7-row3-item1-random2-acc3::after{
     position: absolute;
     font-size: 20px;
     /* content: "Những người đàn ông"; */
@@ -1650,15 +1648,15 @@
   }
 
 
-  /*.case6-row3-item1-random2-3*/
-.case6-row3-item1-random2-4 {
+  /*.case7-row3-item1-random2-3*/
+.case7-row3-item1-random2-4 {
     position: absolute;
     width: 100%;
     height: 100%;
     background: #ddd;
     transform: translateX(300%);
 }
-.case6-row3-item1-random2-4::after{
+.case7-row3-item1-random2-4::after{
     /* content: "His"; */
     font-size: 25px;
     font-weight: 800;
@@ -1666,22 +1664,22 @@
     top: 50px;
     left: 15px;
 }
-.case6-row3-item1-random2-acc4::after{
+.case7-row3-item1-random2-acc4::after{
     position: absolute;
     font-size: 20px;
     /* content: "Anh ấy"; */
     color: red;
   }
 
-  /*.case6-row3-item1-random2-5*/
-  .case6-row3-item1-random2-5 {
+  /*.case7-row3-item1-random2-5*/
+  .case7-row3-item1-random2-5 {
     position: absolute;
     width: 100%;
     height: 100%;
     background: #ddd;
     transform: translateX(400%);
 }
-.case6-row3-item1-random2-5::after{
+.case7-row3-item1-random2-5::after{
     /* content: "Her"; */
     font-size: 25px;
     font-weight: 800;
@@ -1689,7 +1687,7 @@
     top: 50px;
     left: 15px;
 }
-.case6-row3-item1-random2-acc5::after{
+.case7-row3-item1-random2-acc5::after{
     position: absolute;
     font-size: 20px;
     /* content: "Cô ấy"; */
@@ -1705,16 +1703,16 @@
 
 
 
-/*--------------------------------case6-row3-item2-ramdom2-------------*/
-.case6-row3-item2-random2{
+/*--------------------------------case7-row3-item2-ramdom2-------------*/
+.case7-row3-item2-random2{
     position: relative;
     display: flex;
     width: 100%;
     height: 100%;
     transition: 0.5s ease all;
 }
-/*.case6-row3-item2-random2-1*/
-.case6-row3-item2-random2-1 {
+/*.case7-row3-item2-random2-1*/
+.case7-row3-item2-random2-1 {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -1722,7 +1720,7 @@
     z-index: 10;
     
 }
-.case6-row3-item2-random2-1::after{
+.case7-row3-item2-random2-1::after{
     /* content: "Man"; */
     font-size: 25px;
     font-weight: 800;
@@ -1730,11 +1728,10 @@
     top: 50px;
     left: 15px;
 }
-.case6-row3-item2-random2-acc1::after{
+.case7-row3-item2-random2-acc1::after{
     position: absolute;
     font-size: 20px;
     top: 60px;
-    left: 0;
     /* content: "Đàn Ông"; */
     color: red;
     text-align: center;
@@ -1743,8 +1740,8 @@
 
 
 
-/*.case6-row3-item2-random2-2*/
-.case6-row3-item2-random2-2 {
+/*.case7-row3-item2-random2-2*/
+.case7-row3-item2-random2-2 {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -1752,7 +1749,7 @@
     transform: translateX(100%);
     z-index: 10;
 }
-.case6-row3-item2-random2-2::after{
+.case7-row3-item2-random2-2::after{
     /* content: "Woman"; */
     font-size: 25px;
     font-weight: 800;
@@ -1760,15 +1757,15 @@
     top: 50px;
     left: 15px;
 }
-.case6-row3-item2-random2-acc2::after{
+.case7-row3-item2-random2-acc2::after{
     position: absolute;
     font-size: 20px;
     /* content: "Người Phụ Nữ"; */
     color: red;
     z-index: 10;
   }
-/*.case6-row3-item1-random2-3*/
-.case6-row3-item2-random2-3 {
+/*.case7-row3-item1-random2-3*/
+.case7-row3-item2-random2-3 {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -1776,7 +1773,7 @@
     transform: translateX(200%);
     z-index: 10;
 }
-.case6-row3-item2-random2-3::after{
+.case7-row3-item2-random2-3::after{
     /* content: "Men"; */
     font-size: 25px;
     font-weight: 800;
@@ -1784,7 +1781,7 @@
     top: 50px;
     left: 15px;
 }
-.case6-row3-item2-random2-acc3::after{
+.case7-row3-item2-random2-acc3::after{
     position: absolute;
     font-size: 20px;
     /* content: "Những người đàn ông"; */
@@ -1793,8 +1790,8 @@
   }
 
 
-  /*.case6-row3-item2-random2-4*/
-.case6-row3-item2-random2-4 {
+  /*.case7-row3-item2-random2-4*/
+.case7-row3-item2-random2-4 {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -1802,7 +1799,7 @@
     transform: translateX(300%);
     z-index: 10;
 }
-.case6-row3-item2-random2-4::after{
+.case7-row3-item2-random2-4::after{
     /* content: "His"; */
     font-size: 25px;
     font-weight: 800;
@@ -1811,7 +1808,7 @@
     left: 15px;
     
 }
-.case6-row3-item2-random2-acc4::after{
+.case7-row3-item2-random2-acc4::after{
     position: absolute;
     font-size: 20px;
     /* content: "Anh ấy"; */
@@ -1821,8 +1818,8 @@
 
 
 
-  /*.case6-row3-item2-random2-5*/
-  .case6-row3-item2-random2-5 {
+  /*.case7-row3-item2-random2-5*/
+  .case7-row3-item2-random2-5 {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -1830,7 +1827,7 @@
     transform: translateX(400%);
     z-index: 10;
 }
-.case6-row3-item2-random2-5::after{
+.case7-row3-item2-random2-5::after{
     /* content: "Her"; */
     font-size: 25px;
     font-weight: 800;
@@ -1838,7 +1835,7 @@
     top: 50px;
     left: 15px;
 }
-.case6-row3-item2-random2-acc5::after{
+.case7-row3-item2-random2-acc5::after{
     position: absolute;
     font-size: 20px;
     /* content: "Cô ấy"; */
@@ -1851,16 +1848,16 @@
 
 
 
-/*--------------------------------case6-row3-item3-ramdom2-------------*/
-.case6-row3-item3-random2{
+/*--------------------------------case7-row3-item3-ramdom2-------------*/
+.case7-row3-item3-random2{
     position: relative;
     display: flex;
     width: 100%;
     height: 100%;
     transition: 0.5s ease all;
 }
-/*.case6-row3-item3-random2-1*/
-.case6-row3-item3-random2-1 {
+/*.case7-row3-item3-random2-1*/
+.case7-row3-item3-random2-1 {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -1868,7 +1865,7 @@
     z-index: 11;
     
 }
-.case6-row3-item3-random2-1::after{
+.case7-row3-item3-random2-1::after{
     /* content: "Man"; */
     font-size: 25px;
     font-weight: 800;
@@ -1876,7 +1873,7 @@
     top: 50px;
     left: 15px;
 }
-.case6-row3-item3-random2-acc1::after{
+.case7-row3-item3-random2-acc1::after{
     position: absolute;
     font-size: 20px;
     top: 60px;
@@ -1889,8 +1886,8 @@
 
 
 
-/*.case6-row3-item3-random2-2*/
-.case6-row3-item3-random2-2 {
+/*.case7-row3-item3-random2-2*/
+.case7-row3-item3-random2-2 {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -1898,7 +1895,7 @@
     transform: translateX(100%);
     z-index: 11;
 }
-.case6-row3-item3-random2-2::after{
+.case7-row3-item3-random2-2::after{
     /* content: "Woman"; */
     font-size: 25px;
     font-weight: 800;
@@ -1906,15 +1903,15 @@
     top: 50px;
     left: 15px;
 }
-.case6-row3-item3-random2-acc2::after{
+.case7-row3-item3-random2-acc2::after{
     position: absolute;
     font-size: 20px;
     /* content: "Người Phụ Nữ"; */
     color: red;
     z-index: 11;
   }
-/*.case6-row3-item1-random2-3*/
-.case6-row3-item3-random2-3 {
+/*.case7-row3-item1-random2-3*/
+.case7-row3-item3-random2-3 {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -1922,7 +1919,7 @@
     transform: translateX(200%);
     z-index: 11;
 }
-.case6-row3-item3-random2-3::after{
+.case7-row3-item3-random2-3::after{
     /* content: "Men"; */
     font-size: 25px;
     font-weight: 800;
@@ -1930,7 +1927,7 @@
     top: 50px;
     left: 20px;
 }
-.case6-row3-item3-random2-acc3::after{
+.case7-row3-item3-random2-acc3::after{
     position: absolute;
     font-size: 20px;
     /* content: "Những người đàn ông"; */
@@ -1939,8 +1936,8 @@
   }
 
 
-  /*.case6-row3-item3-random2-4*/
-.case6-row3-item3-random2-4 {
+  /*.case7-row3-item3-random2-4*/
+.case7-row3-item3-random2-4 {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -1948,7 +1945,7 @@
     transform: translateX(300%);
     z-index: 11;
 }
-.case6-row3-item3-random2-4::after{
+.case7-row3-item3-random2-4::after{
     /* content: "His"; */
     font-size: 25px;
     font-weight: 800;
@@ -1957,7 +1954,7 @@
     left: 15px;
     
 }
-.case6-row3-item3-random2-acc4::after{
+.case7-row3-item3-random2-acc4::after{
     position: absolute;
     font-size: 20px;
     /* content: "Anh ấy"; */
@@ -1967,8 +1964,8 @@
 
 
 
-  /*.case6-row3-item3-random2-5*/
-  .case6-row3-item3-random2-5 {
+  /*.case7-row3-item3-random2-5*/
+  .case7-row3-item3-random2-5 {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -1976,7 +1973,7 @@
     transform: translateX(400%);
     z-index: 11;
 }
-.case6-row3-item3-random2-5::after{
+.case7-row3-item3-random2-5::after{
     /* content: "Her"; */
     font-size: 25px;
     font-weight: 800;
@@ -1984,7 +1981,7 @@
     top: 50px;
     left: 15px;
 }
-.case6-row3-item3-random2-acc5::after{
+.case7-row3-item3-random2-acc5::after{
     position: absolute;
     font-size: 20px;
     /* content: "Cô ấy"; */
@@ -1997,16 +1994,16 @@
 
 
 
-/*--------------------------------case6-row3-item4-ramdom2-------------*/
-.case6-row3-item4-random2{
+/*--------------------------------case7-row3-item4-ramdom2-------------*/
+.case7-row3-item4-random2{
     position: relative;
     display: flex;
     width: 100%;
     height: 100%;
     transition: 0.5s ease all;
 }
-/*.case6-row3-item4-random2-1*/
-.case6-row3-item4-random2-1 {
+/*.case7-row3-item4-random2-1*/
+.case7-row3-item4-random2-1 {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -2014,7 +2011,7 @@
     z-index: 11;
     
 }
-.case6-row3-item4-random2-1::after{
+.case7-row3-item4-random2-1::after{
     /* content: "Man"; */
     font-size: 25px;
     font-weight: 800;
@@ -2022,7 +2019,7 @@
     top: 50px;
     left: 15px;
 }
-.case6-row3-item4-random2-acc1::after{
+.case7-row3-item4-random2-acc1::after{
     position: absolute;
     font-size: 20px;
     top: 60px;
@@ -2035,8 +2032,8 @@
 
 
 
-/*.case6-row3-ite4-random2-2*/
-.case6-row3-item4-random2-2 {
+/*.case7-row3-ite4-random2-2*/
+.case7-row3-item4-random2-2 {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -2044,7 +2041,7 @@
     transform: translateX(100%);
     z-index: 11;
 }
-.case6-row3-item4-random2-2::after{
+.case7-row3-item4-random2-2::after{
     /* content: "Woman"; */
     font-size: 25px;
     font-weight: 800;
@@ -2052,15 +2049,15 @@
     top: 50px;
     left: 15px;
 }
-.case6-row3-item4-random2-acc2::after{
+.case7-row3-item4-random2-acc2::after{
     position: absolute;
     font-size: 20px;
     /* content: "Người Phụ Nữ"; */
     color: red;
     z-index: 11;
   }
-/*.case6-row3-item4-random2-3*/
-.case6-row3-item4-random2-3 {
+/*.case7-row3-item4-random2-3*/
+.case7-row3-item4-random2-3 {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -2068,15 +2065,15 @@
     transform: translateX(200%);
     z-index: 11;
 }
-.case6-row3-item4-random2-3::after{
+.case7-row3-item4-random2-3::after{
     /* content: "Men"; */
-    font-size: 22px;
+    font-size: 25px;
     font-weight: 800;
     position: absolute;
     top: 50px;
-    left: 5px;
+    left: 20px;
 }
-.case6-row3-item4-random2-acc3::after{
+.case7-row3-item4-random2-acc3::after{
     position: absolute;
     font-size: 20px;
     /* content: "Những người đàn ông"; */
@@ -2085,8 +2082,8 @@
   }
 
 
-  /*.case6-row3-item4-random2-4*/
-.case6-row3-item4-random2-4 {
+  /*.case7-row3-item4-random2-4*/
+.case7-row3-item4-random2-4 {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -2094,7 +2091,7 @@
     transform: translateX(300%);
     z-index: 11;
 }
-.case6-row3-item4-random2-4::after{
+.case7-row3-item4-random2-4::after{
     /* content: "His"; */
     font-size: 25px;
     font-weight: 800;
@@ -2103,7 +2100,7 @@
     left: 15px;
     
 }
-.case6-row3-item4-random2-acc4::after{
+.case7-row3-item4-random2-acc4::after{
     position: absolute;
     font-size: 20px;
     /* content: "Anh ấy"; */
@@ -2113,8 +2110,8 @@
 
 
 
-  /*.case6-row3-item4-random2-5*/
-  .case6-row3-item4-random2-5 {
+  /*.case7-row3-item4-random2-5*/
+  .case7-row3-item4-random2-5 {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -2122,15 +2119,15 @@
     transform: translateX(400%);
     z-index: 11;
 }
-.case6-row3-item4-random2-5::after{
+.case7-row3-item4-random2-5::after{
     /* content: "Her"; */
-    font-size: 22px;
+    font-size: 25px;
     font-weight: 800;
     position: absolute;
     top: 50px;
     left: 15px;
 }
-.case6-row3-item4-random2-acc5::after{
+.case7-row3-item4-random2-acc5::after{
     position: absolute;
     font-size: 20px;
     /* content: "Cô ấy"; */
@@ -2138,156 +2135,156 @@
     z-index: 11;
   }
 
-/*note vocabulary case6-row3-item1-radom1 */
+/*note vocabulary case7-row3-item1-radom1 */
 /*1*/
-.case6-row3-item1-random2-1::after{
-    content: "risk";
+.case7-row3-item1-random2-1::after{
+    content: "per person";
 }
-.case6-row3-item1-random2-acc1::after{
-    content: "rủi ro, nguy cơ";
+.case7-row3-item1-random2-acc1::after{
+    content: "mỗi người";
 }
 /*2*/
-.case6-row3-item1-random2-2::after{
-    content: "obligation";
+.case7-row3-item1-random2-2::after{
+    content: "would rather";
 }
-.case6-row3-item1-random2-acc2::after{
-    content: "nghĩa vụ, bổn phận";
+.case7-row3-item1-random2-acc2::after{
+    content: "thích (làm gì) hơn";
 }
 /*3*/
-.case6-row3-item1-random2-3::after{
-    content: "audit";
+.case7-row3-item1-random2-3::after{
+    content: "distinguish";
 }
-.case6-row3-item1-random2-acc3::after{
-    content: "sự kiểm toán, kiểm tra sổ sách";
+.case7-row3-item1-random2-acc3::after{
+    content: "phân biệt";
 }
 /*4*/
-.case6-row3-item1-random2-4::after{
-    content: "realize";
+.case7-row3-item1-random2-4::after{
+    content: "persuade";
 }
-.case6-row3-item1-random2-acc4::after{
-    content: "nhận ra";
+.case7-row3-item1-random2-acc4::after{
+    content: "thuyết phục";
 }
 /*5*/
-.case6-row3-item1-random2-5::after{
-    content: "cause";
+.case7-row3-item1-random2-5::after{
+    content: "assist";
 }
-.case6-row3-item1-random2-acc5::after{
-    content: "gây ra, tạo ra";
+.case7-row3-item1-random2-acc5::after{
+    content: "giúp đỡ";
 }
 
 
 
 
-/*note vocabulary case6-row3-item2-radom2 */
+/*note vocabulary case7-row3-item2-radom2 */
 /*1*/
-.case6-row3-item2-random2-1::after{
-    content: "issue";
+.case7-row3-item2-random2-1::after{
+    content: "subject";
 }
-.case6-row3-item2-random2-acc1::after{
-    content: "in ra, phát ra, đưa ra";
+.case7-row3-item2-random2-acc1::after{
+    content: "chủ đề";
 }
 /*2*/
-.case6-row3-item2-random2-2::after{
-    content: "technique";
+.case7-row3-item2-random2-2::after{
+    content: "application";
 }
-.case6-row3-item2-random2-acc2::after{
-    content: "phương pháp(kỹ thuật)";
+.case7-row3-item2-random2-acc2::after{
+    content: "ứng dụng, đơn ứng tuyển";
 }
 /*3*/
-.case6-row3-item2-random2-3::after{
-    content: "reputation";
+.case7-row3-item2-random2-3::after{
+    content: "access";
 }
-.case6-row3-item2-random2-acc3::after{
-    content: "danh tiếng";
+.case7-row3-item2-random2-acc3::after{
+    content: "sự truy cập";
 }
 /*4*/
-.case6-row3-item2-random2-4::after{
-    content: "vacancy";
+.case7-row3-item2-random2-4::after{
+    content: "investigate";
 }
-.case6-row3-item2-random2-acc4::after{
-    content: "vị trí chỗ trống";
+.case7-row3-item2-random2-acc4::after{
+    content: "điều tra";
 }
 /*5*/
-.case6-row3-item2-random2-5::after{
-    content: "beverage";
+.case7-row3-item2-random2-5::after{
+    content: "council's";
 }
-.case6-row3-item2-random2-acc5::after{
-    content: "thức uống";
+.case7-row3-item2-random2-acc5::after{
+    content: "hội đồng";
 }
 
 
-/*note vocabulary case6-row3-item3-radom2 */
+/*note vocabulary case7-row3-item3-radom2 */
 /*1*/
-.case6-row3-item3-random2-1::after{
-    content: "flexible";
+.case7-row3-item3-random2-1::after{
+    content: "municipal";
 }
-.case6-row3-item3-random2-acc1::after{
-    content: "linh hoạt";
+.case7-row3-item3-random2-acc1::after{
+    content: "thành phố, thị xã";
 }
 /*2*/
-.case6-row3-item3-random2-2::after{
-    content: "experience";
+.case7-row3-item3-random2-2::after{
+    content: "successfull";
 }
-.case6-row3-item3-random2-acc2::after{
-    content: "kinh nghiệm, trải nghiệm";
+.case7-row3-item3-random2-acc2::after{
+    content: "thành công, có kết quả";
 }
 /*3*/
-.case6-row3-item3-random2-3::after{
-    content: "damage";
+.case7-row3-item3-random2-3::after{
+    content: "talent";
 }
-.case6-row3-item3-random2-acc3::after{
-    content: "hư hại";
+.case7-row3-item3-random2-acc3::after{
+    content: "tài năng";
 }
 /*4*/
-.case6-row3-item3-random2-4::after{
-    content: "attract";
+.case7-row3-item3-random2-4::after{
+    content: "the rest";
 }
-.case6-row3-item3-random2-acc4::after{
-    content: "hấp dẫn, thu hút";
+.case7-row3-item3-random2-acc4::after{
+    content: "phần còn lại";
 }
 /*5*/
-.case6-row3-item3-random2-5::after{
-    content: "back injury";
+.case7-row3-item3-random2-5::after{
+    content: "recruiter";
 }
-.case6-row3-item3-random2-acc5::after{
-    content: "đau lưng";
+.case7-row3-item3-random2-acc5::after{
+    content: "nhà tuyển dụng";
 }
 
-/*note vocabulary case6-row3-item4-random2 */
+/*note vocabulary case7-row3-item4-random2 */
 /*1*/
-.case6-row3-item4-random2-1::after{
-    content: "summary";
+.case7-row3-item4-random2-1::after{
+    content: "ingredients";
 }
-.case6-row3-item4-random2-acc1::after{
-    content: "bản tóm tắt";
+.case7-row3-item4-random2-acc1::after{
+    content: "thành phần";
 }
 /*2*/
-.case6-row3-item4-random2-2::after{
-    content: "provide";
+.case7-row3-item4-random2-2::after{
+    content: "factor";
 }
-.case6-row3-item4-random2-acc2::after{
-    content: "cung cấp";
+.case7-row3-item4-random2-acc2::after{
+    content: "nhân tố";
 }
 /*3*/
-.case6-row3-item4-random2-3::after{
-    content: "recommendation";
+.case7-row3-item4-random2-3::after{
+    content: "fine dining";
 }
-.case6-row3-item4-random2-acc3::after{
-    content: "kiến nghị";
+.case7-row3-item4-random2-acc3::after{
+    content: "nhà hàng cao cấp";
 }
 /*4*/
-.case6-row3-item4-random2-4::after{
-    content: "anticipate";
+.case7-row3-item4-random2-4::after{
+    content: "freshest";
 }
-.case6-row3-item4-random2-acc4::after{
-    content: "dự báo";
+.case7-row3-item4-random2-acc4::after{
+    content: "tươi nhất";
 }
 /*5*/
-.case6-row3-item4-random2-5::after{
-    content: "complimentary";
+.case7-row3-item4-random2-5::after{
+    content: "a ride";
 }
-.case6-row3-item4-random2-acc5::after{
-    content: "miễn phí";
+.case7-row3-item4-random2-acc5::after{
+    content: "chuyến xe";
 }
 
 

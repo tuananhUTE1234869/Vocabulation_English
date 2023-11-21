@@ -11,7 +11,7 @@ body{
     width: 100%;
     height: 100%;
     background: rgba(109, 102, 102,0.7);
-    display: none;
+    display: flex;
     justify-content: center;
     
     z-index: 100;

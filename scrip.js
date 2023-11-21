@@ -1,3 +1,9 @@
+
+
+
+
+
+
 //----------------------------------random----------------------------------
 const rd_go = document.querySelector("#rd-go")
 const rd_back = document.querySelector(".rd-back")
@@ -13,42 +19,122 @@ rd_back.addEventListener("click", function(){
 
 
 
-// //----------------------------------Login - Password----------------------------------
-// const Value_Password = document.querySelector(".login-password-content-text-input-value")
-// const Container_login = document.querySelector(".login-password")
-// const login_button = document.querySelector(".login-password-content-text-button-login")
 
 
-// function delay(){
-//     setTimeout(()=>{
-//         document.querySelector(".login-error").style.display="none";
-//         bien_co = 1;
-//     },3000);
+//----------------------------------Login - Password----------------------------------
+const Value_Password = document.querySelector(".login-password-content-text-input-value")
+const Container_login = document.querySelector(".login-password")
+const login_button = document.querySelector(".login-password-content-text-button-login")
+
+
+function delay(){
+    setTimeout(()=>{
+        document.querySelector(".login-error").style.display="none";
+        bien_co = 1;
+    },3000);
     
-// }
+}
 
-// let Value_password=324869;
-// let bien_co = 1;
 
-// Value_Password.onkeyup = (e) => {
-//     let current = e.target.value;
-//     console.log(current);
-//     if (Value_password==current){
-//         login_button.addEventListener("click", function(){
-//             document.querySelector(".login-password").style.display="none"
-//         })
-//     }else{
-//         login_button.addEventListener("click", function(){
-//             document.querySelector(".login-error").style.display="flex";
-//             if (bien_co == 1){
-//                 bien_co = 0;
-//                 delay();
-//             }
-            
-//         })
+let Value_password=324869;
+let bien_co = 1;
+
+// -------------------------reset chay--------------------------
+// let bien_canh = 0;
+// localStorage.setItem('bien_canh', bien_canh);
+let bien_canh = localStorage.getItem('bien_canh') === '1'? 1:0;
+
+
+// time current
+function getCurrentTime() {
+    return new Date().getTime();
+}
+
+
+
+function time_old() {
+    // Sử dụng hàm getCurrentTime để lấy thời gian hiện tại
+    const currentTime = getCurrentTime();
+
+
+    // Số lạ từ ví dụ trước
+    const date = new Date(currentTime);
+
+    // Lấy giờ và phút
+    const hours_old = date.getHours();
+    const minutes_old = date.getMinutes();
+
+    console.log(hours_old);
+    console.log(minutes_old);
+}
+
+function time_current() {
+    // Sử dụng hàm getCurrentTime để lấy thời gian hiện tại
+    const currentTime1 = getCurrentTime();
+
+
+    // Số lạ từ ví dụ trước
+    const date1 = new Date(currentTime1);
+
+    // Lấy giờ và phút
+    const hours_current = date1.getHours();
+    const minutes_current = date1.getMinutes();
+
+    console.log(hours_current);
+    console.log(minutes_current);
+
+}
+
+
+
+
+
+
+
+let hourold = localStorage.getItem('hourold') === '0'? 0:59;
+let minutesold = localStorage.getItem('minutesold') === '0'? 0:59;
+
+if (bien_canh === 1){
+
+
+
+
+    document.querySelector(".login-password").style.display="none";
+}
+
+Value_Password.onkeyup = (e) => {
+    let current = e.target.value;
+    // console.log(current);
+
+    if (Value_password==current){
+        login_button.addEventListener("click", function(){
+
+            // luu key
+            bien_canh = 1;
+            localStorage.setItem('bien_canh', bien_canh);
+
+            time_old();
+            localStorage.setItem('bien_canh', bien_canh);
+            localStorage.setItem('bien_canh', bien_canh);
+
+
+            document.querySelector(".login-password").style.display="none";
+
+
+
+
+        })
+    }else{
+        login_button.addEventListener("click", function(){
+            document.querySelector(".login-error").style.display="flex";
+            if (bien_co == 1){
+                bien_co = 0;
+                delay();
+            }
+        })
     
-//     }
-// }
+    }
+}
 
 
 

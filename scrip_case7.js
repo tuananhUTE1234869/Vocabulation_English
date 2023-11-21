@@ -331,8 +331,8 @@ Reset7.addEventListener("click", function(){
             //move div row3 
             document.querySelector(".case7-row3-item1-random2").style.right=index7*100+"%";
             document.querySelector(".case7-row3-item2-random2").style.right=index7*100+"%";
-            document.querySelector(".case7-row3-item3-random2").style.right=index7*100+"%";
-            document.querySelector(".case7-row3-item4-random2").style.right=index5*100+"%";
+            document.querySelector(".case7-row3-item3-random2").style.right=index7*100+"%"; 
+            document.querySelector(".case7-row3-item4-random2").style.right=index7*100+"%";
 
 
 })

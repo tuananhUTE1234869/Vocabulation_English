@@ -70,7 +70,7 @@ setTimeout(() => {
 
 
 function gotoLocalhost(){
-    window.location.href="http://localhost:89/STUDY_DATABASE/"
+    window.location.href="https://tuananhenglish.000webhostapp.com/"
 }
 
 

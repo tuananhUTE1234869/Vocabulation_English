@@ -331,7 +331,7 @@ Reset8.addEventListener("click", function(){
             document.querySelector(".case8-row3-item1-random2").style.right=index8*100+"%";
             document.querySelector(".case8-row3-item2-random2").style.right=index8*100+"%";
             document.querySelector(".case8-row3-item3-random2").style.right=index8*100+"%";
-            document.querySelector(".case8-row3-item4-random2").style.right=index5*100+"%";
+            document.querySelector(".case8-row3-item4-random2").style.right=index8*100+"%";
 
 
 })

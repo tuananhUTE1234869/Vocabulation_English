@@ -27,22 +27,60 @@ const Container_login = document.querySelector(".login-password")
 const login_button = document.querySelector(".login-password-content-text-button-login")
 
 
+let bien_co = 1;
+
 function delay(){
     setTimeout(()=>{
-        document.querySelector(".login-error").style.display="none";
-        bien_co = 1;
+        bien_co = 0;
+        if (bien_co === 0){
+            document.querySelector(".login-error").style.display="none";
+            bien_co = 1;
+        }
     },3000);
     
 }
 
 
-let Value_password=324869;
-let bien_co = 1;
 
+
+
+//CONNECT PASSWORD WEBSITE===============================================================================================================
 // -------------------------reset chay--------------------------
 // let bien_canh = 0;
 // localStorage.setItem('bien_canh', bien_canh);
-let bien_canh = localStorage.getItem('bien_canh') === '1'? 1:0;
+
+
+// reset value current bien canh
+let bien_canh = localStorage.getItem('bien_canh');
+
+
+// console.log(bien_canh);
+
+//check - time - open - key
+let timeOp_open_key = localStorage.getItem('hour_open_key');
+console.log('thời gian đã mở key: ' + timeOp_open_key);
+
+
+//check - time - current
+// time_current();
+let timeCu_open_key = localStorage.getItem('hour_current');
+console.log('thời gian hiện tại: ' + timeCu_open_key);
+
+check_time_login(timeOp_open_key,timeCu_open_key);
+check_bien_canh();
+console.log('giá trị biến canh hiện tại: ' + bien_canh);
+
+
+function check_time_login(time_key,time_current){
+    if(time_key === time_current){
+
+    }else{
+        bien_canh = '0';
+        localStorage.setItem('bien_canh', bien_canh);
+    }
+}
+
+
 
 
 // time current
@@ -52,7 +90,7 @@ function getCurrentTime() {
 
 
 
-function time_old() {
+function time_open_key() {
     // Sử dụng hàm getCurrentTime để lấy thời gian hiện tại
     const currentTime = getCurrentTime();
 
@@ -61,11 +99,11 @@ function time_old() {
     const date = new Date(currentTime);
 
     // Lấy giờ và phút
-    const hours_old = date.getHours();
-    const minutes_old = date.getMinutes();
+    const hour_open_key = date.getHours();
+    // const minutes_open_key = date.getMinutes();
 
-    console.log(hours_old);
-    console.log(minutes_old);
+    // localStorage.setItem('hour_open_key', hour_open_key);
+    localStorage.setItem('hour_open_key', hour_open_key);
 }
 
 function time_current() {
@@ -77,11 +115,20 @@ function time_current() {
     const date1 = new Date(currentTime1);
 
     // Lấy giờ và phút
-    const hours_current = date1.getHours();
-    const minutes_current = date1.getMinutes();
+    const hour_current = date1.getHours();
+    // const minutes_current = date1.getMinutes();
 
-    console.log(hours_current);
-    console.log(minutes_current);
+    localStorage.setItem('hour_current', hour_current);
+    // console.log(hour_current);
+
+}
+function check_bien_canh(){
+
+    if (bien_canh === '1'){
+        document.querySelector(".login-password").style.display="none";
+    }else {
+        document.querySelector(".login-password").style.display="flex";
+    }
 
 }
 
@@ -90,9 +137,8 @@ function time_current() {
 
 
 
-
-let hourold = localStorage.getItem('hourold') === '0'? 0:59;
-let minutesold = localStorage.getItem('minutesold') === '0'? 0:59;
+let hourold = localStorage.getItem('hourold');
+let minutesold = localStorage.getItem('minutesold');
 
 if (bien_canh === 1){
 
@@ -102,33 +148,32 @@ if (bien_canh === 1){
     document.querySelector(".login-password").style.display="none";
 }
 
+
 Value_Password.onkeyup = (e) => {
     let current = e.target.value;
+
+    let password='324869';
+
     // console.log(current);
 
-    if (Value_password==current){
+    if (password === current){
         login_button.addEventListener("click", function(){
 
             // luu key
-            bien_canh = 1;
+            bien_canh = '1';
             localStorage.setItem('bien_canh', bien_canh);
+            check_bien_canh();
 
-            time_old();
-            localStorage.setItem('bien_canh', bien_canh);
-            localStorage.setItem('bien_canh', bien_canh);
-
-
-            document.querySelector(".login-password").style.display="none";
+            time_open_key();
+            
 
 
-
-
+            // document.querySelector(".login-password").style.display="none";
         })
     }else{
         login_button.addEventListener("click", function(){
             document.querySelector(".login-error").style.display="flex";
-            if (bien_co == 1){
-                bien_co = 0;
+            if (bien_co === 1){
                 delay();
             }
         })
@@ -138,6 +183,10 @@ Value_Password.onkeyup = (e) => {
 
 
 
+
+
+
+//===============================================================================================================
 
 
 

@@ -446,7 +446,7 @@
 }
 .case8-row1-item3-random2-2::after{
     /* content: "Woman"; */
-    font-size: 20px;
+    font-size: 25px;
     font-weight: 800;
     position: absolute;
     top: 50px;
@@ -454,7 +454,7 @@
 }
 .case8-row1-item3-random2-acc2::after{
     position: absolute;
-    font-size: 20px;
+    font-size: 25px;
     /* content: "Người Phụ Nữ"; */
     color: red;
     z-index: 11;
@@ -689,76 +689,76 @@
 /*note vocabulary case8-row1-item2-radom2 */
 /*1*/
 .case8-row1-item2-random2-1::after{
-    content: "appointment";
+    content: "nutritionst";
 }
 .case8-row1-item2-random2-acc1::after{
-    content: "cuộc hẹn";
+    content: "chuyên gia dinh dưỡng";
 }
 /*2*/
 .case8-row1-item2-random2-2::after{
-    content: "necessary";
+    content: "compliment";
 }
 .case8-row1-item2-random2-acc2::after{
-    content: "cần thiết";
+    content: "lời khen(n), khen ngợi(v)";
 }
 /*3*/
 .case8-row1-item2-random2-3::after{
-    content: "plan";
+    content: "assignment";
 }
 .case8-row1-item2-random2-acc3::after{
-    content: "lập kế hoạch";
+    content: "nhiệm vụ";
 }
 /*4*/
 .case8-row1-item2-random2-4::after{
-    content: "project";
+    content: "concern";
 }
 .case8-row1-item2-random2-acc4::after{
-    content: "dự án";
+    content: "lo lắng";
 }
 /*5*/
 .case8-row1-item2-random2-5::after{
-    content: "locate";
+    content: "clinic";
 }
 .case8-row1-item2-random2-acc5::after{
-    content: "tọa lạc, nằm";
+    content: "bệnh viện tư, phòng khám";
 }  
 
 
 /*note vocabulary case8-row1-item1-radom1 */
 /*1*/
 .case8-row1-item1-random2-1::after{
-    content: "presentation";
+    content: "inquire";
 }
 .case8-row1-item1-random2-acc1::after{
-    content: "bài thuyết trình";
+    content: "hỏi";
 }
 /*2*/
 .case8-row1-item1-random2-2::after{
-    content: "glove";
+    content: "prescription";
 }
 .case8-row1-item1-random2-acc2::after{
-    content: "găng tay";
+    content: "đơn thuốc";
 }
 /*3*/
 .case8-row1-item1-random2-3::after{
-    content: "plant";
+    content: "reschedule";
 }
 .case8-row1-item1-random2-acc3::after{
-    content: "nhà máy, cây trồng";
+    content: "sắp xếp lại lịch trình, thay đổi lịch trình";
 }
 /*4*/
 .case8-row1-item1-random2-4::after{
-    content: "afraid";
+    content: "appointment";
 }
 .case8-row1-item1-random2-acc4::after{
-    content: "sợ, e rằng";
+    content: "cuộc hẹn";
 }
 /*5*/
 .case8-row1-item1-random2-5::after{
-    content: "keep in touch";
+    content: "receipt";
 }
 .case8-row1-item1-random2-acc5::after{
-    content: "giữ liên lạc";
+    content: "biên lai";
 }
 
 
@@ -766,38 +766,38 @@
 /*note vocabulary case8-row1-item3-radom2 */
 /*1*/
 .case8-row1-item3-random2-1::after{
-    content: "fairly";
+    content: "bill";
 }
 .case8-row1-item3-random2-acc1::after{
-    content: "khá";
+    content: "biên lai";
 }
 /*2*/
 .case8-row1-item3-random2-2::after{
-    content: "lend";
+    content: "automobile";
 }
 .case8-row1-item3-random2-acc2::after{
-    content: "cho...mượn";
+    content: "xe ô tô";
 }
 /*3*/
 .case8-row1-item3-random2-3::after{
-    content: "identify";
+    content: "warranty";
 }
 .case8-row1-item3-random2-acc3::after{
-    content: "nhận dạng";
+    content: "giấy bảo hành";
 }
 /*4*/
 .case8-row1-item3-random2-4::after{
-    content: "complaint";
+    content: "credit";
 }
 .case8-row1-item3-random2-acc4::after{
-    content: "lời than phiền";
+    content: "tín dụng";
 }
 /*5*/
 .case8-row1-item3-random2-5::after{
-    content: "purpose";
+    content: "actually";
 }
 .case8-row1-item3-random2-acc5::after{
-    content: "mục đích";
+    content: "trên thực tế";
 }
 
 
@@ -805,38 +805,38 @@
 /*note vocabulary case8-row1-item4-random2 */
 /*1*/
 .case8-row1-item4-random2-1::after{
-    content: "resolve";
+    content: "expire";
 }
 .case8-row1-item4-random2-acc1::after{
-    content: "giải quyết, xử lí";
+    content: "kết thúc, hết hiệu lực";
 }
 /*2*/
 .case8-row1-item4-random2-2::after{
-    content: "reservation";
+    content: "manufacture";
 }
 .case8-row1-item4-random2-acc2::after{
-    content: "đặt chỗ trước";
+    content: "sự chế tạo, sản xuất";
 }
 /*3*/
 .case8-row1-item4-random2-3::after{
-    content: "in advance";
+    content: "facility";
 }
 .case8-row1-item4-random2-acc3::after{
-    content: "trước";
+    content: "cơ sở vật chất";
 }
 /*4*/
 .case8-row1-item4-random2-4::after{
-    content: "construction";
+    content: "résumé";
 }
 .case8-row1-item4-random2-acc4::after{
-    content: "việc xây dựng";
+    content: "hồ sơ, lý lịch";
 }
 /*5*/
 .case8-row1-item4-random2-5::after{
-    content: "fairly";
+    content: "navigate";
 }
 .case8-row1-item4-random2-acc5::after{
-    content: "khá";
+    content: "định hướng";
 }
 
 
@@ -1414,31 +1414,31 @@
 /*note vocabulary case8-row2-item1-radom1 */
 /*1*/
 .case8-row2-item1-random2-1::after{
-    content: "representative";
+    content: "enroll in";
 }
 .case8-row2-item1-random2-acc1::after{
-    content: "người đại diện";
+    content: "đăng ký";
 }
 /*2*/
 .case8-row2-item1-random2-2::after{
-    content: "convenient";
+    content: "analyst";
 }
 .case8-row2-item1-random2-acc2::after{
-    content: "thuận tiện, tiện lợi";
+    content: "nhà phân tích";
 }
 /*3*/
 .case8-row2-item1-random2-3::after{
-    content: "shuttle";
+    content: "rigester for";
 }
 .case8-row2-item1-random2-acc3::after{
-    content: "trung chuyển";
+    content: "đăng ký";
 }
 /*4*/
 .case8-row2-item1-random2-4::after{
-    content: "performance";
+    content: "eligible for";
 }
 .case8-row2-item1-random2-acc4::after{
-    content: "trình diễn, hiệu suất";
+    content: "đủ điều kiện cho";
 }
 /*5*/
 .case8-row2-item1-random2-5::after{
@@ -1454,113 +1454,113 @@
 /*note vocabulary case8-row2-item2-radom2 */
 /*1*/
 .case8-row2-item2-random2-1::after{
-    content: "attendance";
+    content: "accommodation";
 }
 .case8-row2-item2-random2-acc1::after{
-    content: "sự tham gia, tham dự";
+    content: "chỗ ở";
 }
 /*2*/
 .case8-row2-item2-random2-2::after{
-    content: "stage";
+    content: "board meeting";
 }
 .case8-row2-item2-random2-acc2::after{
-    content: "sân khấu, giai đoạn";
+    content: "cuộc hợp hội đồng";
 }
 /*3*/
 .case8-row2-item2-random2-3::after{
-    content: "postpone";
+    content: "announcement";
 }
 .case8-row2-item2-random2-acc3::after{
-    content: "trì hoãn";
+    content: "thông báo";
 }
 /*4*/
 .case8-row2-item2-random2-4::after{
-    content: "deposit";
+    content: "demonstration";
 }
 .case8-row2-item2-random2-acc4::after{
-    content: "tiền đặc cọc";
+    content: "sự trình diễn";
 }
 /*5*/
 .case8-row2-item2-random2-5::after{
-    content: "leave + N(đồ vật)";
+    content: "projector";
 }
 .case8-row2-item2-random2-acc5::after{
-    content: "để quên";
+    content: "máy chiếu";
 }
 
 
 /*note vocabulary case8-row2-item3-radom2 */
 /*1*/
 .case8-row2-item3-random2-1::after{
-    content: "leave + N(người)";
+    content: "purchase";
 }
 .case8-row2-item3-random2-acc1::after{
-    content: "trời đi";
+    content: "mua";
 }
 /*2*/
 .case8-row2-item3-random2-2::after{
-    content: "way";
+    content: "coupon";
 }
 .case8-row2-item3-random2-acc2::after{
-    content: "cách, phương hướng";
+    content: "phiếu";
 }
 /*3*/
 .case8-row2-item3-random2-3::after{
-    content: "quickest";
+    content: "contract";
 }
 .case8-row2-item3-random2-acc3::after{
-    content: "nhanh nhất";
+    content: "hợp đồng";
 }
 /*4*/
 .case8-row2-item3-random2-4::after{
-    content: "airmail";
+    content: "contractor";
 }
 .case8-row2-item3-random2-acc4::after{
-    content: "gửi thư hỏa tốc, gửi thư hàng không";
+    content: "nhà thầu";
 }
 /*5*/
 .case8-row2-item3-random2-5::after{
-    content: "express";
+    content: "be supposed to";
 }
 .case8-row2-item3-random2-acc5::after{
-    content: "tốc hành(vận chuyển tốc hành)";
+    content: "được cho là";
 }
 
 /*note vocabulary case8-row2-item4-random2 */
 /*1*/
 .case8-row2-item4-random2-1::after{
-    content: "take + time";
+    content: "under construction";
 }
 .case8-row2-item4-random2-acc1::after{
-    content: "mất ...";
+    content: "đang xây dựng";
 }
 /*2*/
 .case8-row2-item4-random2-2::after{
-    content: "session";
+    content: "get stuck";
 }
 .case8-row2-item4-random2-acc2::after{
-    content: "buổi";
+    content: "bị mắt kẹt";
 }
 /*3*/
 .case8-row2-item4-random2-3::after{
-    content: "the last time";
+    content: "sign";
 }
 .case8-row2-item4-random2-acc3::after{
-    content: "lần cuối cùng";
+    content: "dấu hiệu, bảng hiệu";
 }
 /*4*/
 .case8-row2-item4-random2-4::after{
-    content: "acknowledge";
+    content: "out of stock";
 }
 .case8-row2-item4-random2-acc4::after{
-    content: "thừa nhận, công nhận";
+    content: "hết hàng";
 }
 /*5*/
 .case8-row2-item4-random2-5::after{
-    content: "item";
+    content: "//";
 }
 .case8-row2-item4-random2-acc5::after{
-    content: "món đồ, món hàng";
+    content: "//";
 }
 
 

@@ -62,7 +62,7 @@ console.log('thời gian đã mở key: ' + timeOp_open_key);
 
 
 //check - time - current
-// time_current();
+time_current();
 let timeCu_open_key = localStorage.getItem('hour_current');
 console.log('thời gian hiện tại: ' + timeCu_open_key);
 
@@ -119,7 +119,7 @@ function time_current() {
     // const minutes_current = date1.getMinutes();
 
     localStorage.setItem('hour_current', hour_current);
-    // console.log(hour_current);
+    // console.log("TIME HOUR:"+hour_current);
 
 }
 function check_bien_canh(){
@@ -131,23 +131,6 @@ function check_bien_canh(){
     }
 
 }
-
-
-
-
-
-
-let hourold = localStorage.getItem('hourold');
-let minutesold = localStorage.getItem('minutesold');
-
-if (bien_canh === 1){
-
-
-
-
-    document.querySelector(".login-password").style.display="none";
-}
-
 
 Value_Password.onkeyup = (e) => {
     let current = e.target.value;

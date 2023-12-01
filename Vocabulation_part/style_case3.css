@@ -121,7 +121,7 @@
     position: absolute;
     font-size: 20px;
     top: 60px;
-    left: 40px;
+    left: 15px;
     /* content: "Đàn Ông"; */
     color: red;
     text-align: center;
@@ -401,7 +401,7 @@
     position: absolute;
     font-size: 20px;
     top: 60px;
-    left: 40px;
+    left: 15px;
     /* content: "Đàn Ông"; */
     color: red;
     text-align: center;
@@ -548,7 +548,7 @@
     position: absolute;
     font-size: 20px;
     top: 60px;
-    left: 40px;
+    left: 15px;
     /* content: "Đàn Ông"; */
     color: red;
     text-align: center;
@@ -848,7 +848,7 @@
     position: absolute;
     font-size: 20px;
     top: 60px;
-    left: 40px;
+    left: 15px;
     /* content: "Đàn Ông"; */
     color: red;
     text-align: center;
@@ -1128,7 +1128,7 @@
     position: absolute;
     font-size: 20px;
     top: 60px;
-    left: 40px;
+    left: 15px;
     /* content: "Đàn Ông"; */
     color: red;
     text-align: center;
@@ -1274,7 +1274,7 @@
     position: absolute;
     font-size: 20px;
     top: 60px;
-    left: 40px;
+    left: 15px;
     /* content: "Đàn Ông"; */
     color: red;
     text-align: center;
@@ -1571,7 +1571,7 @@
     position: absolute;
     font-size: 20px;
     top: 60px;
-    left: 40px;
+    left: 15px;
     /* content: "Đàn Ông"; */
     color: red;
     text-align: center;
@@ -1852,7 +1852,7 @@
     position: absolute;
     font-size: 20px;
     top: 60px;
-    left: 40px;
+    left: 15px;
     /* content: "Đàn Ông"; */
     color: red;
     text-align: center;
@@ -2123,7 +2123,7 @@
     content: "window blind";
 }
 .case3-row3-item1-random2-acc2::after{
-    content: "rèm cửa sổ (kéo qua 2 bên)";
+    content: "rèm cửa sổ (cầm dây kéo lên)";
 }
 /*3*/
 .case3-row3-item1-random2-3::after{

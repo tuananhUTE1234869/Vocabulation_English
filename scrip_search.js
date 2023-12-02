@@ -69,7 +69,7 @@ setTimeout(() => {
   }, 5000);
 
 
-function gotoLocalhost(){
+function gotoLocazlhost(){
     window.location.href="https://tuananhenglish.000webhostapp.com/"
 }
 

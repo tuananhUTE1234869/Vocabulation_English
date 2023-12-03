@@ -769,10 +769,10 @@
 }
 /*5*/
 .case4-row1-item3-random2-5::after{
-    content: "price";
+    content: "tap";
 }
 .case4-row1-item3-random2-acc5::after{
-    content: "giá cả";
+    content: "vòi khóa nước";
 }
 
 
@@ -2134,17 +2134,17 @@
 }
 /*4*/
 .case4-row3-item1-random2-4::after{
-    content: "//";
+    content: "parade";
 }
 .case4-row3-item1-random2-acc4::after{
-    content: "//";
+    content: "cuộc diễu hành, đoàn diễu hành";
 }
 /*5*/
 .case4-row3-item1-random2-5::after{
-    content: "facing";
+    content: "sort (into)";
 }
 .case4-row3-item1-random2-acc5::after{
-    content: "đối mặt";
+    content: "phân loại, sắp xếp";
 }
 
 
@@ -2153,113 +2153,113 @@
 /*note vocabulary case4-row3-item2-radom2 */
 /*1*/
 .case4-row3-item2-random2-1::after{
-    content: "clips";
+    content: "vehicle";
 }
 .case4-row3-item2-random2-acc1::after{
-    content: "kẹp";
+    content: "phương tiện, xe cộ";
 }
 /*2*/
 .case4-row3-item2-random2-2::after{
-    content: "paper";
+    content: "paddle a boat";
 }
 .case4-row3-item2-random2-acc2::after{
-    content: "giấy";
+    content: "chèo thuyền";
 }
 /*3*/
 .case4-row3-item2-random2-3::after{
-    content: "customers";
+    content: "ink cartridge";
 }
 .case4-row3-item2-random2-acc3::after{
-    content: "khách hàng";
+    content: "khay mực máy in";
 }
 /*4*/
 .case4-row3-item2-random2-4::after{
-    content: "earlier";
+    content: "return";
 }
 .case4-row3-item2-random2-acc4::after{
-    content: "sớm hơn";
+    content: "trả lại (+đồ vật), trở lại";
 }
 /*5*/
 .case4-row3-item2-random2-5::after{
-    content: "receipt";
+    content: "material";
 }
 .case4-row3-item2-random2-acc5::after{
-    content: "hóa đơn";
+    content: "tài liệu, vật liệu, nguyên liệu";
 }
 
 
 /*note vocabulary case4-row3-item3-radom2 */
 /*1*/
 .case4-row3-item3-random2-1::after{
-    content: "official";
+    content: "cart";
 }
 .case4-row3-item3-random2-acc1::after{
-    content: "chính thức";
+    content: "xe đẩy";
 }
 /*2*/
 .case4-row3-item3-random2-2::after{
-    content: "lead";
+    content: "trolley";
 }
 .case4-row3-item3-random2-acc2::after{
-    content: "chỉ huy";
+    content: "xe đẩy";
 }
 /*3*/
 .case4-row3-item3-random2-3::after{
-    content: "negotiations";
+    content: "flow";
 }
 .case4-row3-item3-random2-acc3::after{
-    content: "đàm phán";
+    content: "chảy (dòng chảy)";
 }
 /*4*/
 .case4-row3-item3-random2-4::after{
-    content: "financial";
+    content: "place/put/set";
 }
 .case4-row3-item3-random2-acc4::after{
-    content: "tài chính";
+    content: "đặt, để, nằm ở";
 }
 /*5*/
 .case4-row3-item3-random2-5::after{
-    content: "consultant";
+    content: "crowd(n)/crowded(adj)";
 }
 .case4-row3-item3-random2-acc5::after{
-    content: "tư vấn";
+    content: "đám đông, đông đúc";
 }
 
 /*note vocabulary case4-row3-item4-random2 */
 /*1*/
 .case4-row3-item4-random2-1::after{
-    content: "interesting";
+    content: "lounge";
 }
 .case4-row3-item4-random2-acc1::after{
-    content: "hấp dẫn/thú vị";
+    content: "sảnh chờ, phòng chờ";
 }
 /*2*/
 .case4-row3-item4-random2-2::after{
-    content: "public";
+    content: "situate";
 }
 .case4-row3-item4-random2-acc2::after{
-    content: "công cộng";
+    content: "đặt, để, nằm ở";
 }
 /*3*/
 .case4-row3-item4-random2-3::after{
-    content: "outdoor";
+    content: "carry";
 }
 .case4-row3-item4-random2-acc3::after{
-    content: "ngoài trời";
+    content: "mang, vác, xách, chở";
 }
 /*4*/
 .case4-row3-item4-random2-4::after{
-    content: "indoor";
+    content: "march";
 }
 .case4-row3-item4-random2-acc4::after{
-    content: "trong nhà";
+    content: "dậm chân, đi điều, diễu hành";
 }
 /*5*/
 .case4-row3-item4-random2-5::after{
-    content: "appreciate";
+    content: "musician";
 }
 .case4-row3-item4-random2-acc5::after{
-    content: "đánh giá";
+    content: "nhạc công, nhạc sĩ, người chơi nhạc cụ";
 }
 
 

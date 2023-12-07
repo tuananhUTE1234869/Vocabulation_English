@@ -795,10 +795,10 @@
 }
 /*5*/
 .case5-row1-item3-random2-5::after{
-    content: "proceed";
+    content: "voice";
 }
 .case5-row1-item3-random2-acc5::after{
-    content: "tự động";
+    content: "giọng nói";
 }
 
 

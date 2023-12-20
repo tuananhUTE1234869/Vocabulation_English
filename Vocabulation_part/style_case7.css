@@ -2230,7 +2230,7 @@
 }
 /*3*/
 .case7-row3-item3-random2-3::after{
-    content: "commercial(adj)";
+    content: "commercial (adj)";
 }
 .case7-row3-item3-random2-acc3::after{
     content: "thuộc về thương mại";
@@ -2253,7 +2253,7 @@
 /*note vocabulary case7-row3-item4-random2 */
 /*1*/
 .case7-row3-item4-random2-1::after{
-    content: "orientation(n)";
+    content: "orientation (n)";
 }
 .case7-row3-item4-random2-acc1::after{
     content: "sự định hướng";
@@ -2267,14 +2267,14 @@
 }
 /*3*/
 .case7-row3-item4-random2-3::after{
-    content: "impressive(adj)";
+    content: "impressive (adj)";
 }
 .case7-row3-item4-random2-acc3::after{
     content: "ấn tượng";
 }
 /*4*/
 .case7-row3-item4-random2-4::after{
-    content: "conference(n)";
+    content: "conference (n)";
 }
 .case7-row3-item4-random2-acc4::after{
     content: "hội nghị";

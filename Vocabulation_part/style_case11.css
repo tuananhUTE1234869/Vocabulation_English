@@ -689,17 +689,17 @@
 /*note vocabulary case11-row1-item2-radom2 */
 /*1*/
 .case11-row1-item2-random2-1::after{
-    content: "include";
+    content: "discount";
 }
 .case11-row1-item2-random2-acc1::after{
-    content: "bao gồm, chứa đựng";
+    content: "ưu đãi, giảm giá";
 }
 /*2*/
 .case11-row1-item2-random2-2::after{
-    content: "contain";
+    content: "present";
 }
 .case11-row1-item2-random2-acc2::after{
-    content: "bao gồm, chứa đựng";
+    content: "hiện tại, giới thiệu, xuất trình";
 }
 /*3*/
 .case11-row1-item2-random2-3::after{

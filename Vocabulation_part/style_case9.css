@@ -689,7 +689,7 @@
 /*note vocabulary case9-row1-item2-radom2 */
 /*1*/
 .case9-row1-item2-random2-1::after{
-    content: "potenial";
+    content: "potential";
 }
 .case9-row1-item2-random2-acc1::after{
     content: "tiềm năng";
@@ -717,7 +717,7 @@
 }
 /*5*/
 .case9-row1-item2-random2-5::after{
-    content: "in orfer for";
+    content: "in order for";
 }
 .case9-row1-item2-random2-acc5::after{
     content: "để cho";
@@ -780,7 +780,7 @@
 }
 /*3*/
 .case9-row1-item3-random2-3::after{
-    content: "devising";
+    content: "devise";
 }
 .case9-row1-item3-random2-acc3::after{
     content: "thiết kế, xây dựng";
@@ -826,7 +826,7 @@
 }
 /*4*/
 .case9-row1-item4-random2-4::after{
-    content: "amenities";
+    content: "amenity";
 }
 .case9-row1-item4-random2-acc4::after{
     content: "tiện nghi";
@@ -1428,7 +1428,7 @@
 }
 /*3*/
 .case9-row2-item1-random2-3::after{
-    content: "reorganizing";
+    content: "reorganize";
 }
 .case9-row2-item1-random2-acc3::after{
     content: "tái tổ chức";
@@ -1471,7 +1471,7 @@
     content: "improve";
 }
 .case9-row2-item2-random2-acc3::after{
-    content: "cung cấp";
+    content: "cải thiện";
 }
 /*4*/
 .case9-row2-item2-random2-4::after{
@@ -2067,7 +2067,7 @@
 }
 .case9-row3-item4-random2-3::after{
     /* content: "Men"; */
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 800;
     position: absolute;
     top: 50px;
@@ -2216,10 +2216,10 @@
 /*note vocabulary case9-row3-item3-radom2 */
 /*1*/
 .case9-row3-item3-random2-1::after{
-    content: "//";
+    content: "tight";
 }
 .case9-row3-item3-random2-acc1::after{
-    content: "linh hoạt";
+    content: "chặt chẽ, kín";
 }
 /*2*/
 .case9-row3-item3-random2-2::after{
@@ -2270,7 +2270,7 @@
     content: "recommendation";
 }
 .case9-row3-item4-random2-acc3::after{
-    content: "kiến nghị";
+    content: "khuyến nghị";
 }
 /*4*/
 .case9-row3-item4-random2-4::after{

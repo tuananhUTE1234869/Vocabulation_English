@@ -696,10 +696,10 @@
 }
 /*2*/
 .case11-row1-item2-random2-2::after{
-    content: "present";
+    content: "present(n,v)";
 }
 .case11-row1-item2-random2-acc2::after{
-    content: "hiện tại, giới thiệu, xuất trình";
+    content: "hiện tại,món quà/ giới thiệu, xuất trình";
 }
 /*3*/
 .case11-row1-item2-random2-3::after{
@@ -776,7 +776,7 @@
     content: "toward";
 }
 .case11-row1-item3-random2-acc2::after{
-    content: "hướng về phí, đối với";
+    content: "hướng về phía, đối với";
 }
 /*3*/
 .case11-row1-item3-random2-3::after{
@@ -2141,14 +2141,14 @@
     content: "term and condition";
 }
 .case11-row3-item1-random2-acc1::after{
-    content: "quy định/ điều khoản";
+    content: "điều khoản và điều kiện";
 }
 /*2*/
 .case11-row3-item1-random2-2::after{
     content: "provision";
 }
 .case11-row3-item1-random2-acc2::after{
-    content: "trong hợp đồng";
+    content: "cung cấp, điều khoản";
 }
 /*3*/
 .case11-row3-item1-random2-3::after{
@@ -2244,10 +2244,10 @@
 }
 /*5*/
 .case11-row3-item3-random2-5::after{
-    content: "keynote speaker(n)";
+    content: "relevant";
 }
 .case11-row3-item3-random2-acc5::after{
-    content: "diễn giả chính";
+    content: "thích hợp";
 }
 
 /*note vocabulary case11-row3-item4-random2 */
@@ -2281,10 +2281,10 @@
 }
 /*5*/
 .case11-row3-item4-random2-5::after{
-    content: "right behind";
+    content: "product";
 }
 .case11-row3-item4-random2-acc5::after{
-    content: "ngay đằng sau";
+    content: "sản phẩm";
 }
 
 

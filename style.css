@@ -310,6 +310,7 @@ h1 {
     font-weight: 800;
 }
 .study-database:hover {
+    cursor: pointer;
     background: #0ef;
 }
 

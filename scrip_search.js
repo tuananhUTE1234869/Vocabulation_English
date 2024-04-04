@@ -69,18 +69,15 @@ setTimeout(() => {
   }, 5000);
 
 
-function gotoLocazlhost(){
-    window.location.href="https://tuananhenglish.000webhostapp.com/"
-}
+// function gotoLocazlhost(){
+//     window.location.href="https://tuananhenglish.000webhostapp.com/"
+// }
 
+const study_database = document.querySelector(".study-database")
 
-
-
-
-
-
-
-
+study_database.addEventListener("click", function(){
+    window.location.href='https://tuananhenglish.000webhostapp.com/';
+})
 
 
 

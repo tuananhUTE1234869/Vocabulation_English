@@ -703,10 +703,10 @@
 }
 /*3*/
 .case9-row1-item2-random2-3::after{
-    content: "clear";
+    content: "clear(adj/v)";
 }
 .case9-row1-item2-random2-acc3::after{
-    content: "trong, rõ ràng, dọn";
+    content: "trong,rõ ràng/ dọn";
 }
 /*4*/
 .case9-row1-item2-random2-4::after{

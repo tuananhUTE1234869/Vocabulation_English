@@ -1002,7 +1002,7 @@ h1 {
     content: "reach for";
 }
 .case1-row1-item1-random1-acc2::after{
-    content: "với tôi";
+    content: "với tới";
 }
 /*3*/
 .case1-row1-item1-random1-3::after{
@@ -1750,7 +1750,7 @@ h1 {
     content: "sell";
 }
 .case1-row2-item2-random2-acc5::after{
-    content: "sell";
+    content: "bán";
 }
 
 
@@ -2539,10 +2539,10 @@ h1 {
 }
 /*4*/
 .case1-row3-item4-random2-4::after{
-    content: "tire";
+    content: "tire(adj/n)";
 }
 .case1-row3-item4-random2-acc4::after{
-    content: "lốp xe";
+    content: "mệt/lốp xe";
 }
 /*5*/
 .case1-row3-item4-random2-5::after{
